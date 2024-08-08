@@ -7,6 +7,5366 @@
     font-family: Mulish;
     src: url(font/Mulish-Medium.ttf);
 }
+@media (max-width: 320px) {
+    .main .nav {
+        display: flex;
+        justify-content: center;
+        height: 32vh;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+    }
+
+    .nav li {
+        display: none;
+    }
+    .nav .menu i {
+        display: flex;
+        font-size: 9vh;
+        margin-left: 157vh;
+    }
+    .nav .icons {
+        display: none;
+    }
+    .nav p {
+        display: none;
+    }
+    .nav .logo img {
+        width: 108vw;
+        height: 15vh;
+        cursor: pointer;
+        position: absolute;
+        left: 0.1vh;
+        bottom: -2.5vh;
+    }
+    
+    .main .nav .logo {
+        background: #ffffff;
+    }
+    
+    .logo::after {
+        display: none;
+    }
+    .main .sec1 {
+        background-image: url(imgs/sec\ 1\ bg\ 2.jpg);
+        width: 315vw;
+        height: 295vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .sec1 .sec1box {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        left: 3.3vh;
+        top: 75.7vh;
+        padding: 13vh;
+        padding-bottom: 0vh;
+        position: absolute;
+        height: 165vh;
+        width: 285vw;
+        font-family: mulish, Saira Condensed, sans-serif;
+    }
+    
+    .sec1 .sec1box h1 {
+        text-transform: uppercase;
+        font-size: 12vh;
+        margin-bottom: 1.2vh;
+    }
+    
+    .sec1 .sec1box p {
+        font-family: Mulish;
+        font-size: 8.5vh;
+        font-weight: 100;
+        margin-bottom: 2.3vh;
+    }
+    
+    .sec1 .sec1box button {
+        height: 19.5vh;
+        margin-top: 3vh;
+        width: 81vh;
+        border: none;
+        font-size: 8vh;
+        font-weight: 700;
+        background-color: #FAD110;
+        letter-spacing: 0.2vh;
+        cursor: pointer;
+    }
+    
+    .sec1 .sec1box button:hover {
+        height: 7.5vh;
+        width: 18vh;
+        border: none;
+        font-size: 2vh;
+        font-weight: 700;
+        background-color: #FAD110;
+        letter-spacing: 0.2vh;
+        cursor: pointer;
+        color: white;
+    }
+    .sec1 .sec1cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        gap: 8vh;
+        text-align: center;
+        top: 270vh;
+        left: 4%;
+    }
+    
+    .sec1cards .sec1card {
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.47);
+        padding-top: 18.5vh;
+        width: 278.4vw;
+        height: 78vh;
+    }
+    
+    .sec1cards .sec1card h1 {
+        font-weight: 100;
+        font-size: 11.2vh;
+        margin-top: 1.3vh;
+    }
+    
+    .sec1cards .sec1card img {
+        height: 26.6vh;
+        width: 82.5vw;
+    }
+    .main .sec2 {
+        width: 100%;
+        height: 38b0vh;
+        margin-top: 330vh;
+        margin-bottom: 120vh;
+        padding-left: 3vh;
+        padding-right: 3vh;
+        position: relative;
+    }
+    
+    .sec2 .sec2head {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 1vh;
+        flex-direction: column;
+    }
+    
+    .sec2 .sec2heading h1 {
+        font-size: 12.7vh;
+        width: max-content;
+        font-weight: 600;
+        letter-spacing: 0.2vh;
+    }
+    
+    .sec2 .sec2heading h2 {
+        font-size: 10.7vh;
+        width: max-content;
+        letter-spacing: 0.3vh;
+        font-weight: 100;
+        color: #4586D5;
+        text-transform: uppercase;
+    }
+    
+    .sec2 .sec2headbutton button {
+        border: 0.3vh solid #FAD110;
+        height: 15vh;
+        letter-spacing: 0.3vh;
+        color: #4586D5;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 110vw;
+        font-size: 6vh;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .sec2 .sec2cards {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 15vh;
+        margin-top: 10vh;
+        margin-left: 4.5vh;
+    }
+    
+    .sec2 .sec2card {
+        box-shadow: 0px 0.8vh 1.8vh rgba(74, 103, 141, 0.16);
+        background-color: white;
+        height: 130vh;
+        width: 258vw;
+        text-align: center;
+        letter-spacing: 0.1vh;
+    }
+    
+    .sec2 .sec2card img {
+        width: 258vw;
+        height: 68vh;
+    }
+    
+    .sec2  .sec2card p {
+        font-size: 6.3vh;
+        font-weight: 100;
+        margin-top: 0.5vh;
+        margin-bottom: 1.3vh;
+    }
+    
+    .sec2 .sec2card h1 {
+        font-size: 10vh;
+        margin-top: 4vh;
+    }
+    
+    .sec2 .sec2card h2 {
+        font-size: 6.8vh;
+        font-weight: 100;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .sec2 .sec2card i {
+        font-size: 4.5vh;
+        background-color: #FAD110;
+        height: 9vh;
+        width: 9vh;
+        align-items: center;
+        color: #142336;
+        display: none;
+        position: absolute;
+        padding-top: 2vh;
+        top: 47vh;
+        margin-left: -29vh;
+        cursor: pointer;
+        text-align: center;
+        -webkit-transition: all, 0.3s;
+        -o-transition: all, 0.3s;
+        transition: all, 0.3s;
+    }
+    .main .sec3 {
+        height: 370vh;
+        width: 140vh;
+        background-color: #142336;
+        position: relative;
+        margin-top: 411vh;
+    }
+    
+    .main .sec3cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 15vh;
+    }
+    
+    .main .sec3card h1 {
+        font-family: Mulish;
+        font-size: 22.7vh;
+        font-weight: 900;
+        color: white;
+        margin-top: 1.3vh;
+    }
+    
+    .main .sec3cards h2 {
+        font-size: 10vh;
+        margin-bottom: 8.3vh;
+        color: #4586D5;
+    }
+    
+    .main .sec3cards img {
+        height: 28vh;
+        width: 54vw;
+    }
+    .main .sec4 {
+        height: 600vh;
+        width: 100%;
+        position: relative;
+    }
+    
+    .main .img2 {
+        width: 275vw;
+        height: 75vh;
+        top: 118vh;
+        left: 6.5vh;
+        position: absolute;
+    }
+    
+    .sec4left .img1 {
+        width: 270vw;
+        height: 70vh;
+        left: 7vh;
+        position: absolute;
+    }
+
+    .main .sec4left {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20vh;
+    }
+    
+    .main .sec4right {
+        position: absolute;
+        top: 200vh;
+        left: -10vh;
+    }
+    
+    .main .sec4right h3 {
+        margin-top: 17vh;
+        font-family: Mulish;
+        font-size: 8.5vh;
+        width: max-content;
+        color: #4586D5;
+    }
+    
+    .main .sec4right h1 {
+        font-size: 15.4vh;
+        letter-spacing: 0.1vh;
+        width: fit-content;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    
+    .main .sec4right p {
+        font-size: 6.9vh;
+        width: 265vw;
+        line-height: 1.8;
+        font-weight: 100;
+        font-family: Mulish;
+        margin-top: 7vh;
+    }
+    .main .sec4right br {
+        display: none;
+    }
+    
+    .main .sec4right li {
+        list-style-type: none;
+        font-size: 6.9vh;
+        width: fit-content;
+        line-height: 2.2;
+        font-family: Mulish;
+        font-weight: 100;
+    }
+    
+    .main .sec4right ul {
+        margin-top: 10vh;
+        margin-bottom: 1.9vh;
+    }
+    
+    .main .sec4right button {
+        border: 0.9vh solid #FAD110;
+        height: 18vh;
+        margin-top: 5vh;
+        letter-spacing: 0.3vh;
+        color: #4586D5;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 150vw;
+        font-size: 7.4vh;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .main .sec5 {
+        height: 590vh;
+        width: 100%;
+        padding: 0vh 0vh 17vh 0vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main .sec5right {
+        padding-left: 10vh;
+        padding-top: 25vh;
+        width: 139.9vh;
+        height: 270vh;
+        background-color: #4586D5;
+        display: flex;
+        flex-direction: column;
+        gap: 7vh;
+    }
+    .main .sec5right br {
+        display: none;
+    }
+    .main .sec5right input {
+        background: transparent;
+        border: 0.1vh solid rgba(255, 255, 255, 0.398);
+        margin-right: 5vh;
+        width: 254.5vw;
+        height: 18.5vh;
+        padding: 4vh;
+        padding-top: 7vh;
+        font-family: Mulish;
+        margin-bottom: 3vh;
+        outline: none;
+        color: white;
+    }
+    
+    .main .sec5right input::placeholder {
+        color: white;
+        font-size: 5.7vh;
+        font-weight: lighter;
+    }
+    
+    .main .message input {
+        width: 254.5vw;
+        height: 48.5vh;
+    }
+    
+    .main .sec5right h1 {
+        font-size: 14.3vh;
+        color: white;
+        margin-bottom: 4vh;
+    }
+    
+    .main .sec5right button {
+        border: 0.3vh solid #FAD110;
+        height: 18vh;
+        letter-spacing: 0.3vh;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 130vw;
+        font-size: 6.8vh;
+        cursor: pointer;
+        background-color: #FAD110;
+    }
+    
+    .main .sec5left img {
+        width: 139.6vh;
+        height: 270vh;
+    }
+    
+    .main .sec5left i {
+        background-color: #4586D5;
+        position: absolute;
+        height: 34.5vh;
+        width: 34.5vh;
+        font-size: 22vh;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        left: 48vh;
+        top: 385vh;
+    }
+    .main .sec6 {
+        height: 790vh;
+        width: 100%;
+        position: relative;
+    }
+    
+    .main .sec6head {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 50vh;
+    }
+    
+    .main .sec6head h2 {
+        color: #4586D5;
+        text-transform: uppercase;
+        letter-spacing: 0.2vh;
+        font-weight: 100;
+        font-size: 9.3vh;
+        text-align: center;
+    }
+    
+    .main .sec6head h1 {
+        letter-spacing: 0.2vh;
+        font-size: 15.4vh;
+        width: max-content;
+        text-align: center;
+    }
+    
+    .sec6cards {
+        display: flex;
+        flex-direction: column;
+        gap: 85vh;
+        justify-content: center;
+    }
+    
+    .main .sec6card p {
+        font-size: 7.6vh;
+        width: fit-content;
+        line-height: 1.8;
+        font-family: Mulish;
+        font-style: italic;
+        font-weight: 100;
+    }
+
+    .main .sec6card {
+        background-color: rgb(255, 255, 255);
+        width: 240vw;
+        height: 161vh;
+        border-radius: 0.5vh;
+        padding: 9.2vh;
+        border-top: 1.7vh solid #FAD110;
+        box-shadow: 0px 5px 15px rgba(74, 103, 141, 0.16);
+        position: relative;
+    }
+    
+    .sec6card::after {
+        width: 0vw;
+        height: 0vh;
+        border-left: 2.5vh solid transparent;
+        border-right: 2.5vh solid transparent;
+        border-top: 2.5vh solid #e5e5e580;
+        content: "";
+        box-shadow: 0px 0.0.2vh 0.0.2vh rgb(0, 110, 255);
+        position: absolute;
+        top: 30.6vh;
+    }
+    
+    .main .sec6smallcard1 {
+        display: flex;
+        gap: 3.9vh;
+        position: absolute;
+        top: 243vh;
+        left: 17vh;
+    }
+    
+    .main .sec6smallcard1 img {
+        height: 39vh;
+        width: 79.5vw;
+    }
+    
+    .main .cardtxt h1 {
+        font-size: 9.6vh;
+        width: max-content;
+    }
+    
+    .main .cardtxt span {
+        width: max-content;
+        font-size: 6.9vh;
+        font-style: italic;
+        color: #4586D5;
+    }
+    
+    .main .sec6smallcard2 {
+        display: flex;
+        gap: 3.9vh;
+        position: absolute;
+        top: 489vh;
+        left: 17vh;
+    }
+    
+    .main .sec6smallcard2 img {
+        height: 39vh;
+        width: 79.5vw;
+    }
+    
+    
+    .main .sec6smallcard3 {
+        display: flex;
+        gap: 3.9vh;
+        position: absolute;
+        top: 733vh;
+        left: 17vh;
+    }
+    
+    .main .sec6smallcard3 img {
+        height: 39vh;
+        width: 79.5vw;
+    }
+    .main .sec7 {
+        height: 236vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 140vh;
+        text-transform: uppercase;
+        background-image: url(imgs/sec\ 7\ bg\ 2.jpg);
+        color: white;
+        position: relative;
+        padding: 5vh;
+    }
+    
+    .main .sec7 h1 {
+        font-size: 22vh;
+        text-shadow: 4px 1px 7px rgba(0, 0, 0, 0.32);
+        margin-top: 0.8vh;
+        margin-bottom: 2.3vh;
+        outline: black;
+    }
+    
+    .main .sec7 h2 {
+        font-size: 13.9vh;
+        font-weight: 100;
+        text-shadow: 4px 1px 7px rgba(0, 0, 0, 0.32);
+    }
+    
+    .main .sec7 button {
+        cursor: pointer;
+        background-color: #FAD110;
+        width: 123vw;
+        font-size: 5.3vh;
+        letter-spacing: 0.2vh;
+        text-transform: uppercase;
+        font-weight: 900;
+        height: 17vh;
+        border: none;
+        text-align: center;
+        position: absolute;
+        left: 30.5%;
+        top: 84%;
+    }
+    .main .sec8 {
+        height: 750vh;
+        width: 100%;
+        padding: 10vh 10vh 0vh 10vh;
+        position: relative;
+    }
+    
+    .sec8head {
+        display: flex;
+        justify-content: space-between;
+        letter-spacing: 0.2vh;
+        flex-direction: column;
+    }
+    
+    .main .sec8head h2 {
+        font-size: 8.5vh;
+        width: max-content;
+        color: #4586D5;
+        font-family: Mulish;
+        letter-spacing: 0.2vh;
+    }
+    
+    .main .sec8head h1 {
+        font-size: 12.6vh;
+        width: max-content;
+    }
+    
+    .main .sec8head button {
+        border: 0.3vh solid #FAD110;
+        height: 15vh;
+        letter-spacing: 0.3vh;
+        color: #4586D5;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 135vw;
+        font-size: 5.1vh;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    
+    .sec8cards {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 10vh;
+        text-align: center;
+        position: relative;
+    
+    }
+    
+    .main .sec8card img {
+        height: 120vh;
+        width: 260vw;
+        border: 0.2vh solid rgba(0, 0, 0, 0.272);
+    }
+    
+    .main .sec8card p {
+        margin-top: 7vh;
+        width: max-content;
+        font-size: 7vh;
+        margin-left: 12vh;
+    }
+    
+    .main .sec8card h1 {
+        font-size: 10vh;
+        margin-left: 50vh;
+    }
+    
+    .main .card2 span {
+        background-color: #4586D5;
+        color: white;
+        height: 9.4vh;
+        position: absolute;
+        left: 47vh;
+        width: 50vw;
+        font-size: 6.1vh;
+        text-align: center;
+        top: 281vh;
+    }
+    
+    .main .card3 span {
+        background-color: #B94040;
+        color: white;
+        height: 9.4vh;
+        position: absolute;
+        left: 47vh;
+        width: 50vw;
+        font-size: 6.1vh;
+        text-align: center;
+        top: 448vh;
+    }
+    
+    .main .card4 span {
+        background-color: #142336;
+        color: white;
+        height: 10.4vh;
+        position: absolute;
+        left: 32vh;
+        width: 120vw;
+        font-size: 6.1vh;
+        text-align: center;
+        top: 611vh;
+    }
+    .main .sec9 {
+        height: 461vh;
+        width: 133vh;
+        padding: 10vh 10vh 0vh 10vh;
+        position: relative;
+        background: #F3F8FC;
+    }
+    
+    .sec9head {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .main .sec9head h1 {
+        font-size: 14vh;
+        letter-spacing: 0.3vh;
+    }
+    
+    .main .sec9head h2 {
+        font-size: 8.5vh;
+        letter-spacing: 0.4vh;
+        font-family: mulish;
+        text-transform: uppercase;
+        color: #4586D5;
+    }
+    
+    .sec9cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 7vh;
+    }
+    
+    .main .sec9card1 h6 {
+        display: none;
+    }
+    
+    .sec9card1 span {
+        color: #4586D5;
+    }
+    
+    .main .sec9card1 p {
+        font-size: 8vh;
+        color: rgba(0, 0, 0, 0.369);
+        font-family: mulish;
+        margin-bottom: 17vh;
+    }
+    
+    .main .sec9card1 img {
+        height: 78vh;
+    }
+    
+    .main .sec9card1 h1 {
+        font-size: 7.8vh;
+        width: max-content;
+    }
+    
+    .main .sec10banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        padding: 5vh;
+        height: 185vh;
+        background-color: #4586D5;
+        align-items: center;
+        position: absolute;
+        top: 453vh;
+        z-index: 9;
+    }
+    
+    .main .sec10bannercall {
+        display: flex;
+        gap: 3vh;
+    }
+    
+    .main .sec10bannerhead h1 {
+        font-size: 13vh;
+        letter-spacing: 0.3vh;
+        color: white;
+    }
+    
+    .main .sec10bannerhead h2 {
+        font-size: 9vh;
+        margin-top: 3vh;
+        letter-spacing: 0.3vh;
+        color: #FAD110;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    .main .sec10bannerhead {
+        position: absolute;
+        top: 10vh;
+        left: 10vh;
+    }
+    
+    .main .sec10bannercalltxt h1 {
+        font-size: 17vh;
+        color: #FAD110;
+        font-weight: 100;
+    }
+    .main .sec10bannercalltxt {
+        position: absolute;
+        top: 140vh;
+        left: 10vh;
+    }
+    .main .sec10bannercalltxt p {
+        font-size: 9vh;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .main .sec10bannercallimg img {
+        height: 48vh;
+        text-align: center;
+        position: absolute;
+        left: 15vh;
+        top: 75vh;
+    }
+    .main .sec10 {
+        margin-top: 50vh;
+        height: 561vh;
+        width: 140vh;
+        padding: 10vh 10vh 0vh 10vh;
+        padding-top: 150vh;
+        position: relative;
+        background: #142336;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 0.3vh solid #444444;
+    }
+    
+    .Contactus {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main .Contactus h1 {
+        font-size: 13vh;
+    }
+    
+    .main .Contactus p {
+        line-height: 20vh;
+        letter-spacing: 0.1vh;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 6.7vh;
+        margin-top: 4vh;
+        font-weight: 100;
+        font-family: mulish;
+    }
+    
+    .main .Contactus::after {
+        position: absolute;
+        top: 161vh;
+        left: 62vh;
+        height: 0.7vh;
+        width: 148.7vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Quicklinks {
+        margin-left: 1vh;
+        margin-top: 10vh;
+    }
+    
+    .main .Quicklinks h1 {
+        font-size: 13vh;
+    }
+    
+    .main .Quicklinks::after {
+        position: absolute;
+        top: 302vh;
+        left: 64vh;
+        height: 0.7vh;
+        width: 148.7vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Quicklinks ul {
+        list-style-type: none;
+        line-height: 14vh;
+        letter-spacing: 0.2vh;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 6.8vh;
+        margin-top: 4vh;
+        font-weight: 100;
+        font-family: mulish;
+    }
+    
+    .main .Quicklinks2 ul {
+        list-style-type: none;
+        line-height: 14vh;
+        letter-spacing: 0.2vh;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 6.8vh;
+        top: 307vh;
+        left: 62vh;
+        font-weight: 100;
+        position: absolute;
+        font-family: mulish;
+    }
+    
+    .main .Whatsnews::after {
+        position: absolute;
+        top: 390vh;
+        left: 74vh;
+        height: 0.7vh;
+        width: 118.7vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Whatsnews {
+        margin-left: 1vh;
+        margin-top: 7vh;
+    }
+    
+    .main .Whatsnews h1 {
+        font-size: 13vh;
+    }
+    
+    .main .sec10cards {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        margin-top: 5vh;
+    }
+    
+    .main .sec10card {
+        display: flex;
+        flex-direction: row;
+        gap: 2vh;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .main .sec10card img {
+        height: 25vh;
+        width: 35vw;
+    }
+    
+    .main .sec10card h2 {
+        font-size: 8.3vh;
+    }
+    
+    .main .sec10card p {
+        font-size: 8vh;
+    }
+    
+    .main .Subscribe {
+        margin-left: 1vh;
+        margin-top: 9vh;
+    }
+    
+    .main .Subscribe h1 {
+        font-size: 13vh;
+    }
+    
+    .main .Subscribe::after {
+        position: absolute;
+        top: 482vh;
+        left: 60vh;
+        height: 0.7vh;
+        width: 148.7vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Subscribe p {
+        margin-top: 3vh;
+        font-size: 6vh;
+        margin-bottom: 3vh;
+        font-weight: 100;
+        font-family: mulish;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .main .Subscribe input {
+        height: 16vh;
+        width: 105vh;
+        background: transparent;
+        border: 0.2vh solid rgba(255, 255, 255, 0.534);
+        padding-left: 4vh;
+        padding-top: 4vh;
+        margin-bottom: 2vh;
+    }
+    
+    .main .Subscribe input::placeholder {
+        font-size: 7.2vh;
+        color: rgba(255, 255, 255, 0.531);
+    }
+    
+    .main .Subscribe button {
+        height: 10vh;
+        width: 40vh;
+        background-color: #FAD110;
+        font-size: 6    .2vh;
+        margin-top: 5vh;
+        letter-spacing: 0.2vh;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    
+    .main .footer p {
+        text-align: center;
+        font-size: 6.5vh;
+        color: #F3F8FC;
+    }
+    .main .footer {
+        background-color: #142336;
+        height: 25vh;
+        width: 140vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer span {
+        color: #FAD110;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .main .nav {
+        display: flex;
+        justify-content: center;
+        height: 32vh;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+    }
+
+    .nav li {
+        display: none;
+    }
+    .nav .menu i {
+        display: flex;
+        font-size: 9vh;
+        margin-left: 200vh;
+    }
+    .nav .icons {
+        display: none;
+    }
+    .nav p {
+        display: none;
+    }
+    .nav .logo img {
+        width: 108vw;
+        height: 15vh;
+        cursor: pointer;
+        position: absolute;
+        right: -33vh;
+        bottom: -2.5vh;
+    }
+    
+    .main .nav .logo {
+        background: #ffffff;
+    }
+    
+    .logo::after {
+        display: none;
+    }
+    .main .sec1 {
+        background-image: url(imgs/sec\ 1\ bg\ 2.jpg);
+        width: 315vw;
+        height: 295vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .sec1 .sec1box {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        left: 4.5vh;
+        top: 75.7vh;
+        padding: 13vh;
+        padding-bottom: 0vh;
+        position: absolute;
+        height: 165vh;
+        width: 285vw;
+        font-family: mulish, Saira Condensed, sans-serif;
+    }
+    
+    .sec1 .sec1box h1 {
+        text-transform: uppercase;
+        font-size: 12vh;
+        margin-bottom: 1.2vh;
+    }
+    
+    .sec1 .sec1box p {
+        font-family: Mulish;
+        font-size: 8.5vh;
+        font-weight: 100;
+        margin-bottom: 2.3vh;
+    }
+    
+    .sec1 .sec1box button {
+        height: 19.5vh;
+        margin-top: 3vh;
+        width: 81vh;
+        border: none;
+        font-size: 8vh;
+        font-weight: 700;
+        background-color: #FAD110;
+        letter-spacing: 0.2vh;
+        cursor: pointer;
+    }
+    
+    .sec1 .sec1box button:hover {
+        height: 7.5vh;
+        width: 18vh;
+        border: none;
+        font-size: 2vh;
+        font-weight: 700;
+        background-color: #FAD110;
+        letter-spacing: 0.2vh;
+        cursor: pointer;
+        color: white;
+    }
+    .sec1 .sec1cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        gap: 8vh;
+        text-align: center;
+        top: 270vh;
+        left: 4%;
+    }
+    
+    .sec1cards .sec1card {
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.47);
+        padding-top: 18.5vh;
+        width: 278.4vw;
+        height: 78vh;
+    }
+    
+    .sec1cards .sec1card h1 {
+        font-weight: 100;
+        font-size: 11.2vh;
+        margin-top: 1.3vh;
+    }
+    
+    .sec1cards .sec1card img {
+        height: 26.6vh;
+        width: 82.5vw;
+    }
+    .main .sec2 {
+        width: 100%;
+        height: 200vh;
+        margin-top: 330vh;
+        margin-bottom: 120vh;
+        padding-left: 3vh;
+        padding-right: 3vh;
+        position: relative;
+    }
+    
+    .sec2 .sec2head {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 1vh;
+        flex-direction: column;
+    }
+    
+    .sec2 .sec2heading h1 {
+        font-size: 15.7vh;
+        width: max-content;
+        font-weight: 600;
+        letter-spacing: 0.2vh;
+    }
+    
+    .sec2 .sec2heading h2 {
+        font-size: 13.7vh;
+        width: max-content;
+        letter-spacing: 0.3vh;
+        font-weight: 100;
+        color: #4586D5;
+        text-transform: uppercase;
+    }
+    
+    .sec2 .sec2headbutton button {
+        border: 0.3vh solid #FAD110;
+        height: 20vh;
+        letter-spacing: 0.3vh;
+        color: #4586D5;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 150vw;
+        font-size: 9vh;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .sec2 .sec2cards {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 15vh;
+        margin-top: 10vh;
+        margin-left: 9.5vh;
+    }
+    
+    .sec2 .sec2card {
+        box-shadow: 0px 0.8vh 1.8vh rgba(74, 103, 141, 0.16);
+        background-color: white;
+        height: 150vh;
+        width: 275vw;
+        text-align: center;
+        letter-spacing: 0.1vh;
+    }
+    
+    .sec2 .sec2card img {
+        width: 275vw;
+        height: 78vh;
+    }
+    
+    .sec2  .sec2card p {
+        font-size: 7.8vh;
+        font-weight: 100;
+        margin-top: 0.5vh;
+        margin-bottom: 1.3vh;
+    }
+    
+    .sec2 .sec2card h1 {
+        font-size: 13vh;
+        margin-top: 4vh;
+    }
+    
+    .sec2 .sec2card h2 {
+        font-size: 7.8vh;
+        font-weight: 100;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .sec2 .sec2card i {
+        display: none;
+    }
+    .main .sec3 {
+        height: 410vh;
+        width: 165vh;
+        background-color: #142336;
+        position: relative;
+        margin-top: 411vh;
+    }
+    
+    .main .sec3cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 15vh;
+    }
+    
+    .main .sec3card h1 {
+        font-family: Mulish;
+        font-size: 24.7vh;
+        font-weight: 900;
+        color: white;
+        margin-top: 1.3vh;
+    }
+    
+    .main .sec3cards h2 {
+        font-size: 12.4vh;
+        margin-bottom: 8.3vh;
+        color: #4586D5;
+    }
+    
+    .main .sec3cards img {
+        height: 32vh;
+        width: 58vw;
+    }
+    .main .sec4 {
+        height: 690vh;
+        width: 100%;
+        position: relative;
+    }
+    
+    .main .img2 {
+        width: 280vw;
+        height: 80vh;
+        top: 124vh;
+        left: 6.5vh;
+        position: absolute;
+    }
+    
+    .sec4left .img1 {
+        width: 277vw;
+        height: 80vh;
+        left: 8vh;
+        position: absolute;
+    }
+
+    .main .sec4left {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20vh;
+    }
+    
+    .main .sec4right {
+        position: absolute;
+        top: 200vh;
+        left: -10vh;
+    }
+    
+    .main .sec4right h3 {
+        margin-top: 20vh;
+        font-family: Mulish;
+        font-size: 8.5vh;
+        width: max-content;
+        color: #4586D5;
+    }
+    
+    .main .sec4right h1 {
+        font-size: 17.9vh;
+        letter-spacing: 0.1vh;
+        width: fit-content;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    
+    .main .sec4right p {
+        font-size: 8.9vh;
+        width: 265vw;
+        line-height: 1.8;
+        font-weight: 100;
+        font-family: Mulish;
+        margin-top: 7vh;
+    }
+    .main .sec4right br {
+        display: none;
+    }
+    
+    .main .sec4right li {
+        list-style-type: none;
+        font-size: 8.9vh;
+        width: fit-content;
+        line-height: 2.2;
+        font-family: Mulish;
+        font-weight: 100;
+    }
+    
+    .main .sec4right ul {
+        margin-top: 10vh;
+        margin-bottom: 1.9vh;
+    }
+    
+    .main .sec4right button {
+        border: 0.9vh solid #FAD110;
+        height: 18vh;
+        margin-top: 5vh;
+        letter-spacing: 0.3vh;
+        color: #4586D5;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 150vw;
+        font-size: 7.4vh;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .main .sec5 {
+        height: 570vh;
+        width: 100%;
+        padding: 0vh 0vh 17vh 0vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main .sec5right {
+        padding-left: 17vh;
+        padding-top: 25vh;
+        width: 164.9vh;
+        height: 270vh;
+        background-color: #4586D5;
+        display: flex;
+        flex-direction: column;
+        gap: 7vh;
+    }
+    .main .sec5right br {
+        display: none;
+    }
+    .main .sec5right input {
+        background: transparent;
+        border: 0.1vh solid rgba(255, 255, 255, 0.398);
+        margin-right: 5vh;
+        width: 254.5vw;
+        height: 18.5vh;
+        padding: 4vh;
+        padding-top: 7vh;
+        font-family: Mulish;
+        margin-bottom: 3vh;
+        outline: none;
+        color: white;
+    }
+    
+    .main .sec5right input::placeholder {
+        color: white;
+        font-size: 6.9vh;
+        font-weight: lighter;
+    }
+    
+    .main .message input {
+        width: 254.5vw;
+        height: 48.5vh;
+    }
+    
+    .main .sec5right h1 {
+        font-size: 17.3vh;
+        color: white;
+        margin-bottom: 4vh;
+    }
+    
+    .main .sec5right button {
+        border: 0.3vh solid #FAD110;
+        height: 18vh;
+        letter-spacing: 0.3vh;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 130vw;
+        font-size: 6.8vh;
+        cursor: pointer;
+        background-color: #FAD110;
+    }
+    
+    .main .sec5left img {
+        width: 164.9vh;
+        height: 270vh;
+    }
+    
+    .main .sec5left i {
+        background-color: #4586D5;
+        position: absolute;
+        height: 34.5vh;
+        width: 34.5vh;
+        font-size: 22vh;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        left: 68vh;
+        top: 385vh;
+    }
+    .main .sec6 {
+        height: 850vh;
+        width: 100%;
+        position: relative;
+    }
+    
+    .main .sec6head {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 50vh;
+    }
+    
+    .main .sec6head h2 {
+        color: #4586D5;
+        text-transform: uppercase;
+        letter-spacing: 0.2vh;
+        font-weight: 100;
+        font-size: 11.3vh;
+        text-align: center;
+    }
+    
+    .main .sec6head h1 {
+        letter-spacing: 0.2vh;
+        font-size: 17.4vh;
+        width: max-content;
+        text-align: center;
+    }
+    
+    .sec6cards {
+        display: flex;
+        flex-direction: column;
+        gap: 85vh;
+        justify-content: center;
+    }
+    
+    .main .sec6card p {
+        font-size: 9.1vh;
+        width: fit-content;
+        line-height: 1.8;
+        font-family: Mulish;
+        font-style: italic;
+        font-weight: 100;
+    }
+
+    .main .sec6card {
+        background-color: rgb(255, 255, 255);
+        width: 254vw;
+        height: 176vh;
+        border-radius: 0.5vh;
+        padding: 9.2vh;
+        border-top: 1.7vh solid #FAD110;
+        box-shadow: 0px 5px 15px rgba(74, 103, 141, 0.16);
+        position: relative;
+    }
+    
+    .main .sec6smallcard1 {
+        display: flex;
+        gap: 3.9vh;
+        position: absolute;
+        top: 250vh;
+        left: 17vh;
+    }
+    
+    .main .sec6smallcard1 img {
+        height: 40.4vh;
+        width: 82.5vw;
+    }
+    
+    .main .cardtxt h1 {
+        font-size: 9.6vh;
+        width: max-content;
+    }
+    
+    .main .cardtxt span {
+        width: max-content;
+        font-size: 7.9vh;
+        font-style: italic;
+        color: #4586D5;
+    }
+    
+    .main .sec6smallcard2 {
+        display: flex;
+        gap: 3.9vh;
+        position: absolute;
+        top: 511vh;
+        left: 17vh;
+    }
+    
+    .main .sec6smallcard2 img {
+        height: 40.4vh;
+        width: 82.5vw;
+    }
+    
+    
+    .main .sec6smallcard3 {
+        display: flex;
+        gap: 3.9vh;
+        position: absolute;
+        top: 770vh;
+        left: 17vh;
+    }
+    
+    .main .sec6smallcard3 img {
+        height: 40.4vh;
+        width: 82.5vw;
+    }
+    .main .sec7 {
+        height: 256vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 164.9vh;
+        text-transform: uppercase;
+        background-image: url(imgs/sec\ 7\ bg\ 2.jpg);
+        color: white;
+        position: relative;
+        padding: 5vh;
+    }
+    
+    .main .sec7 h1 {
+        font-size: 26vh;
+        text-shadow: 4px 1px 7px rgba(0, 0, 0, 0.32);
+        margin-top: 0.8vh;
+        margin-bottom: 3.7vh;
+        outline: black;
+    }
+    
+    .main .sec7 h2 {
+        font-size: 16.9vh;
+        font-weight: 100;
+        text-shadow: 4px 1px 7px rgba(0, 0, 0, 0.32);
+    }
+    
+    .main .sec7 button {
+        cursor: pointer;
+        background-color: #FAD110;
+        width: 129vw;
+        font-size: 6.3vh;
+        letter-spacing: 0.2vh;
+        text-transform: uppercase;
+        font-weight: 900;
+        height: 17vh;
+        border: none;
+        text-align: center;
+        position: absolute;
+        left: 30.5%;
+        top: 84%;
+    }
+    .main .sec8 {
+        height: 850vh;
+        width: 100%;
+        padding: 10vh 10vh 0vh 10vh;
+        position: relative;
+    }
+    
+    .sec8head {
+        display: flex;
+        justify-content: space-between;
+        letter-spacing: 0.2vh;
+        flex-direction: column;
+    }
+    
+    .main .sec8head h2 {
+        font-size: 10vh;
+        width: max-content;
+        color: #4586D5;
+        font-family: Mulish;
+        letter-spacing: 0.2vh;
+    }
+    
+    .main .sec8head h1 {
+        font-size: 15vh;
+        width: max-content;
+    }
+    
+    .main .sec8head button {
+        border: 0.3vh solid #FAD110;
+        height: 17vh;
+        letter-spacing: 0.3vh;
+        color: #4586D5;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 140vw;
+        font-size: 6.6vh;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    
+    .sec8cards {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 12vh;
+        text-align: center;
+        position: relative;
+    
+    }
+    
+    .main .sec8card img {
+        height: 130vh;
+        width: 280vw;
+        border: 0.2vh solid rgba(0, 0, 0, 0.272);
+    }
+    
+    .main .sec8card p {
+        margin-top: 7vh;
+        width: max-content;
+        font-size: 8.4vh;
+        margin-left: 14.7vh;
+    }
+    
+    .main .sec8card h1 {
+        font-size: 12vh;
+        margin-left: 54vh;
+    }
+    
+    .main .card2 span {
+        background-color: #4586D5;
+        color: white;
+        height: 9.4vh;
+        position: absolute;
+        left: 50.4vh;
+        width: 50vw;
+        font-size: 6.1vh;
+        text-align: center;
+        top: 309vh;
+    }
+    
+    .main .card3 span {
+        background-color: #B94040;
+        color: white;
+        height: 9.4vh;
+        position: absolute;
+        left: 57vh;
+        width: 50vw;
+        font-size: 6.1vh;
+        text-align: center;
+        top: 495vh;
+    }
+    
+    .main .card4 span {
+        background-color: #142336;
+        color: white;
+        height: 10.4vh;
+        position: absolute;
+        left: 38vh;
+        width: 120vw;
+        font-size: 6.1vh;
+        text-align: center;
+        top: 675vh;
+    }
+    .main .sec9 {
+        height: 501vh;
+        width: 163.5vh;
+        padding: 10vh 10vh 0vh 10vh;
+        position: relative;
+        background: #F3F8FC;
+    }
+    
+    .sec9head {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .main .sec9head h1 {
+        font-size: 16.4vh;
+        letter-spacing: 0.3vh;
+    }
+    
+    .main .sec9head h2 {
+        font-size: 10.5vh;
+        letter-spacing: 0.4vh;
+        font-family: mulish;
+        text-transform: uppercase;
+        color: #4586D5;
+    }
+    
+    .sec9cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 8vh;
+        margin-left: 13vh;
+    }
+    
+    .main .sec9card1 h6 {
+        display: none;
+    }
+    
+    .sec9card1 span {
+        color: #4586D5;
+    }
+    
+    .main .sec9card1 p {
+        font-size: 8vh;
+        color: rgba(0, 0, 0, 0.369);
+        font-family: mulish;
+        margin-bottom: 17vh;
+    }
+    
+    .main .sec9card1 img {
+        height: 82vh;
+    }
+    
+    .main .sec9card1 h1 {
+        font-size: 8.3vh;
+        width: max-content;
+    }
+    
+    .main .sec10banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        padding: 5vh;
+        height: 185vh;
+        background-color: #4586D5;
+        align-items: center;
+        position: absolute;
+        top: 493vh;
+        z-index: 9;
+    }
+    
+    .main .sec10bannercall {
+        display: flex;
+        gap: 3vh;
+    }
+    
+    .main .sec10bannerhead h1 {
+        font-size: 13vh;
+        letter-spacing: 0.3vh;
+        color: white;
+    }
+    
+    .main .sec10bannerhead h2 {
+        font-size: 9vh;
+        margin-top: 3vh;
+        letter-spacing: 0.3vh;
+        color: #FAD110;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    .main .sec10bannerhead {
+        position: absolute;
+        top: 10vh;
+        left: 10vh;
+    }
+    
+    .main .sec10bannercalltxt h1 {
+        font-size: 17vh;
+        color: #FAD110;
+        font-weight: 100;
+    }
+    .main .sec10bannercalltxt {
+        position: absolute;
+        top: 140vh;
+        left: 10vh;
+    }
+    .main .sec10bannercalltxt p {
+        font-size: 9vh;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .main .sec10bannercallimg img {
+        height: 48vh;
+        text-align: center;
+        position: absolute;
+        left: 15vh;
+        top: 75vh;
+    }
+    .main .sec10 {
+        margin-top: 50vh;
+        height: 591vh;
+        width: 165vh;
+        padding: 10vh 10vh 0vh 10vh;
+        padding-top: 150vh;
+        position: relative;
+        background: #142336;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 0.3vh solid #444444;
+    }
+    
+    .Contactus {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main .Contactus h1 {
+        font-size: 14vh;
+    }
+    
+    .main .Contactus p {
+        line-height: 20vh;
+        letter-spacing: 0.1vh;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 8vh;
+        margin-top: 4vh;
+        font-weight: 100;
+        font-family: mulish;
+    }
+    
+    .main .Contactus::after {
+        position: absolute;
+        top: 161vh;
+        left: 66vh;
+        height: 0.7vh;
+        width: 148.7vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Quicklinks {
+        margin-left: 1vh;
+        margin-top: 10vh;
+    }
+    
+    .main .Quicklinks h1 {
+        font-size: 14vh;
+    }
+    
+    .main .Quicklinks::after {
+        position: absolute;
+        top: 304vh;
+        left: 67vh;
+        height: 0.7vh;
+        width: 148.7vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Quicklinks ul {
+        list-style-type: none;
+        line-height: 14vh;
+        letter-spacing: 0.2vh;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 8vh;
+        margin-top: 4vh;
+        font-weight: 100;
+        font-family: mulish;
+    }
+    
+    .main .Quicklinks2 ul {
+        list-style-type: none;
+        line-height: 14vh;
+        letter-spacing: 0.2vh;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 8vh;
+        top: 311vh;
+        left: 62vh;
+        font-weight: 100;
+        position: absolute;
+        font-family: mulish;
+    }
+    
+    .main .Whatsnews::after {
+        position: absolute;
+        top: 394vh;
+        left: 78vh;
+        height: 0.7vh;
+        width: 118.7vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Whatsnews {
+        margin-left: 1vh;
+        margin-top: 7vh;
+    }
+    
+    .main .Whatsnews h1 {
+        font-size: 14.3vh;
+    }
+    
+    .main .sec10cards {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        margin-top: 5vh;
+    }
+    
+    .main .sec10card {
+        display: flex;
+        flex-direction: row;
+        gap: 2vh;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .main .sec10card img {
+        height: 25vh;
+        width: 35vw;
+    }
+    
+    .main .sec10card h2 {
+        font-size: 9.3vh;
+    }
+    
+    .main .sec10card p {
+        font-size: 9.3vh;
+    }
+    
+    .main .Subscribe {
+        margin-left: 1vh;
+        margin-top: 9vh;
+    }
+    
+    .main .Subscribe h1 {
+        font-size: 14.5vh;
+    }
+    
+    .main .Subscribe::after {
+        position: absolute;
+        top: 495vh;
+        left: 64vh;
+        height: 0.7vh;
+        width: 158.7vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Subscribe p {
+        margin-top: 3vh;
+        font-size: 7.4vh;
+        margin-bottom: 3vh;
+        font-weight: 100;
+        font-family: mulish;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .main .Subscribe input {
+        height: 16vh;
+        width: 105vh;
+        background: transparent;
+        border: 0.2vh solid rgba(255, 255, 255, 0.534);
+        padding-left: 4vh;
+        padding-top: 4vh;
+        margin-bottom: 2vh;
+    }
+    
+    .main .Subscribe input::placeholder {
+        font-size: 8vh;
+        color: rgba(255, 255, 255, 0.531);
+    }
+    
+    .main .Subscribe button {
+        height: 10vh;
+        width: 40vh;
+        background-color: #FAD110;
+        font-size: 6.2vh;
+        margin-top: 5vh;
+        letter-spacing: 0.2vh;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    
+    .main .footer p {
+        text-align: center;
+        font-size: 5.5vh;
+        color: #F3F8FC;
+    }
+    .main .footer {
+        background-color: #142336;
+        height: 25vh;
+        width: 165vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer span {
+        color: #FAD110;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .main .nav {
+        display: flex;
+        justify-content: center;
+        height: 32vh;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+    }
+
+    .nav li {
+        display: none;
+    }
+    .nav .menu i {
+        display: flex;
+        font-size: 9vh;
+        margin-left: 230vh;
+    }
+    .nav .icons {
+        display: none;
+    }
+    .nav p {
+        display: none;
+    }
+    .nav .logo img {
+        width: 108vw;
+        height: 15vh;
+        cursor: pointer;
+        position: absolute;
+        right: -53vh;
+        bottom: -2.5vh;
+    }
+    
+    .main .nav .logo {
+        background: #ffffff;
+    }
+    
+    .logo::after {
+        display: none;
+    }
+    .main .sec1 {
+        background-image: url(imgs/sec\ 1\ bg\ 2.jpg);
+        width: 315vw;
+        height: 295vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .sec1 .sec1box {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        left: 8.5vh;
+        top: 75.7vh;
+        padding: 13vh;
+        padding-bottom: 0vh;
+        position: absolute;
+        height: 165vh;
+        width: 285vw;
+        font-family: mulish, Saira Condensed, sans-serif;
+    }
+    
+    .sec1 .sec1box h1 {
+        text-transform: uppercase;
+        font-size: 15vh;
+        margin-bottom: 1.2vh;
+    }
+    
+    .sec1 .sec1box p {
+        font-family: Mulish;
+        font-size: 10.5vh;
+        font-weight: 100;
+        margin-bottom: 2.3vh;
+    }
+    
+    .sec1 .sec1box button {
+        height: 23.5vh;
+        margin-top: 3vh;
+        width: 91vh;
+        border: none;
+        font-size: 8.6vh;
+        font-weight: 700;
+        background-color: #FAD110;
+        letter-spacing: 0.2vh;
+        cursor: pointer;
+    }
+    .sec1 .sec1cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        gap: 8vh;
+        text-align: center;
+        top: 270vh;
+        left: 6%;
+    }
+    
+    .sec1cards .sec1card {
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.47);
+        padding-top: 18.5vh;
+        width: 278.4vw;
+        height: 78vh;
+    }
+    
+    .sec1cards .sec1card h1 {
+        font-weight: 100;
+        font-size: 11.2vh;
+        margin-top: 1.3vh;
+    }
+    
+    .sec1cards .sec1card img {
+        height: 26.6vh;
+        width: 82.5vw;
+    }
+    .main .sec2 {
+        width: 100%;
+        height: 200vh;
+        margin-top: 330vh;
+        margin-bottom: 120vh;
+        padding-left: 3vh;
+        padding-right: 3vh;
+        position: relative;
+    }
+    
+    .sec2 .sec2head {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 8vh;
+        flex-direction: column;
+    }
+    
+    .sec2 .sec2heading h1 {
+        font-size: 18.7vh;
+        width: max-content;
+        font-weight: 600;
+        letter-spacing: 0.2vh;
+    }
+    
+    .sec2 .sec2heading h2 {
+        font-size: 16.7vh;
+        width: max-content;
+        letter-spacing: 0.3vh;
+        font-weight: 100;
+        color: #4586D5;
+        text-transform: uppercase;
+    }
+    
+    .sec2 .sec2headbutton button {
+        border: 0.3vh solid #FAD110;
+        height: 24vh;
+        letter-spacing: 0.3vh;
+        color: #4586D5;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 170vw;
+        font-size: 12vh;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .sec2 .sec2cards {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 15vh;
+        margin-top: 10vh;
+        margin-left: 9.5vh;
+    }
+    
+    .sec2 .sec2card {
+        box-shadow: 0px 0.8vh 1.8vh rgba(74, 103, 141, 0.16);
+        background-color: white;
+        height: 150vh;
+        width: 275vw;
+        text-align: center;
+        letter-spacing: 0.1vh;
+    }
+    
+    .sec2 .sec2card img {
+        width: 275vw;
+        height: 78vh;
+    }
+    
+    .sec2  .sec2card p {
+        font-size: 8.2vh;
+        font-weight: 100;
+        margin-top: 0.5vh;
+        margin-bottom: 1.3vh;
+    }
+    
+    .sec2 .sec2card h1 {
+        font-size: 14vh;
+        margin-top: 4vh;
+    }
+    
+    .sec2 .sec2card h2 {
+        font-size: 8vh;
+        font-weight: 100;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .sec2 .sec2card i {
+        display: none;
+    }
+    .main .sec3 {
+        height: 440vh;
+        width: 187vh;
+        background-color: #142336;
+        position: relative;
+        margin-top: 411vh;
+    }
+    
+    .main .sec3cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 15vh;
+    }
+    
+    .main .sec3card h1 {
+        font-family: Mulish;
+        font-size: 25.7vh;
+        font-weight: 900;
+        color: white;
+        margin-top: 1.3vh;
+    }
+    
+    .main .sec3cards h2 {
+        font-size: 13.4vh;
+        margin-bottom: 8.3vh;
+        color: #4586D5;
+    }
+    
+    .main .sec3cards img {
+        height: 32vh;
+        width: 58vw;
+    }
+    .main .sec4 {
+        height: 760vh;
+        width: 100%;
+        position: relative;
+    }
+    
+    .main .img2 {
+        width: 280vw;
+        height: 80vh;
+        top: 124vh;
+        left: 9vh;
+        position: absolute;
+    }
+    
+    .sec4left .img1 {
+        width: 277vw;
+        height: 80vh;
+        left: 11vh;
+        position: absolute;
+    }
+
+    .main .sec4left {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20vh;
+    }
+    
+    .main .sec4right {
+        position: absolute;
+        top: 200vh;
+        left: -10vh;
+    }
+    
+    .main .sec4right h3 {
+        margin-top: 32vh;
+        font-family: Mulish;
+        font-size: 10.5vh;
+        width: max-content;
+        color: #4586D5;
+    }
+    
+    .main .sec4right h1 {
+        font-size: 24vh;
+        letter-spacing: 0.1vh;
+        width: fit-content;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    
+    .main .sec4right p {
+        font-size: 10.1vh;
+        width: 265vw;
+        line-height: 1.8;
+        font-weight: 100;
+        font-family: Mulish;
+        margin-top: 7vh;
+    }
+    .main .sec4right br {
+        display: none;
+    }
+    
+    .main .sec4right li {
+        list-style-type: none;
+        font-size: 9.9vh;
+        width: fit-content;
+        line-height: 2.2;
+        font-family: Mulish;
+        font-weight: 100;
+    }
+    
+    .main .sec4right ul {
+        margin-top: 10vh;
+        margin-bottom: 1.9vh;
+    }
+    
+    .main .sec4right button {
+        border: 0.9vh solid #FAD110;
+        height: 20vh;
+        margin-top: 5vh;
+        letter-spacing: 0.3vh;
+        color: #4586D5;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 170vw;
+        font-size: 9.4vh;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .main .sec5 {
+        height: 570vh;
+        width: 100%;
+        padding: 0vh 0vh 17vh 0vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main .sec5right {
+        padding-left: 21vh;
+        padding-top: 25vh;
+        width: 186.9vh;
+        height: 270vh;
+        background-color: #4586D5;
+        display: flex;
+        flex-direction: column;
+        gap: 7vh;
+    }
+    .main .sec5right br {
+        display: none;
+    }
+    .main .sec5right input {
+        background: transparent;
+        border: 0.1vh solid rgba(255, 255, 255, 0.398);
+        margin-right: 5vh;
+        width: 254.5vw;
+        height: 18.5vh;
+        padding: 4vh;
+        padding-top: 7vh;
+        font-family: Mulish;
+        margin-bottom: 3vh;
+        outline: none;
+        color: white;
+    }
+    
+    .main .sec5right input::placeholder {
+        color: white;
+        font-size: 7.4vh;
+        font-weight: lighter;
+    }
+    
+    .main .message input {
+        width: 254.5vw;
+        height: 48.5vh;
+    }
+    
+    .main .sec5right h1 {
+        font-size: 17.3vh;
+        color: white;
+        margin-bottom: 4vh;
+    }
+    
+    .main .sec5right button {
+        border: 0.3vh solid #FAD110;
+        height: 18vh;
+        letter-spacing: 0.3vh;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 130vw;
+        font-size: 6.8vh;
+        cursor: pointer;
+        background-color: #FAD110;
+    }
+    
+    .main .sec5left img {
+        width: 186.9vh;
+        height: 270vh;
+    }
+    
+    .main .sec5left i {
+        background-color: #4586D5;
+        position: absolute;
+        height: 34.5vh;
+        width: 34.5vh;
+        font-size: 22vh;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        left: 78vh;
+        top: 385vh;
+    }
+    .main .sec6 {
+        height: 950vh;
+        width: 100%;
+        position: relative;
+    }
+    
+    .main .sec6head {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 50vh;
+    }
+    
+    .main .sec6head h2 {
+        color: #4586D5;
+        text-transform: uppercase;
+        letter-spacing: 0.2vh;
+        font-weight: 100;
+        font-size: 13.3vh;
+        text-align: center;
+    }
+    
+    .main .sec6head h1 {
+        letter-spacing: 0.2vh;
+        font-size: 19.8vh;
+        width: max-content;
+        text-align: center;
+    }
+    
+    .sec6cards {
+        display: flex;
+        flex-direction: column;
+        gap: 95vh;
+        justify-content: center;
+    }
+    
+    .main .sec6card p {
+        font-size: 10.1vh;
+        width: fit-content;
+        line-height: 1.8;
+        font-family: Mulish;
+        font-style: italic;
+        font-weight: 100;
+    }
+
+    .main .sec6card {
+        background-color: rgb(255, 255, 255);
+        width: 274vw;
+        height: 206vh;
+        border-radius: 0.5vh;
+        padding: 9.2vh;
+        border-top: 1.7vh solid #FAD110;
+        box-shadow: 0px 5px 15px rgba(74, 103, 141, 0.16);
+        position: relative;
+    }
+    
+    .main .sec6smallcard1 {
+        display: flex;
+        gap: 3.9vh;
+        position: absolute;
+        top: 290vh;
+        left: 17vh;
+    }
+    
+    .main .sec6smallcard1 img {
+        height: 40.4vh;
+        width: 82.5vw;
+    }
+    
+    .main .cardtxt h1 {
+        font-size: 9.6vh;
+        width: max-content;
+    }
+    
+    .main .cardtxt span {
+        width: max-content;
+        font-size: 7.9vh;
+        font-style: italic;
+        color: #4586D5;
+    }
+    
+    .main .sec6smallcard2 {
+        display: flex;
+        gap: 3.9vh;
+        position: absolute;
+        top: 587vh;
+        left: 17vh;
+    }
+    
+    .main .sec6smallcard2 img {
+        height: 40.4vh;
+        width: 82.5vw;
+    }
+    
+    
+    .main .sec6smallcard3 {
+        display: flex;
+        gap: 3.9vh;
+        position: absolute;
+        top: 887vh;
+        left: 17vh;
+    }
+    
+    .main .sec6smallcard3 img {
+        height: 40.4vh;
+        width: 82.5vw;
+    }
+    .main .sec7 {
+        height: 326vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 186.9vh;
+        text-transform: uppercase;
+        background-image: url(imgs/sec\ 7\ bg\ 2.jpg);
+        color: white;
+        position: relative;
+        padding: 5vh;
+    }
+    
+    .main .sec7 h1 {
+        font-size: 31vh;
+        text-shadow: 4px 1px 7px rgba(0, 0, 0, 0.32);
+        margin-top: 0.8vh;
+        margin-bottom: 3.7vh;
+        outline: black;
+    }
+    
+    .main .sec7 h2 {
+        font-size: 20.9vh;
+        font-weight: 100;
+        text-shadow: 4px 1px 7px rgba(0, 0, 0, 0.32);
+    }
+    
+    .main .sec7 button {
+        cursor: pointer;
+        background-color: #FAD110;
+        width: 159vw;
+        font-size: 8.3vh;
+        letter-spacing: 0.2vh;
+        text-transform: uppercase;
+        font-weight: 900;
+        height: 20vh;
+        border: none;
+        text-align: center;
+        position: absolute;
+        left: 30.5%;
+        top: 84%;
+    }
+    .main .sec8 {
+        height: 900vh;
+        width: 100%;
+        padding: 10vh 10vh 0vh 10vh;
+        position: relative;
+    }
+    
+    .sec8head {
+        display: flex;
+        justify-content: space-between;
+        letter-spacing: 0.2vh;
+        flex-direction: column;
+    }
+    
+    .main .sec8head h2 {
+        font-size: 11.5vh;
+        width: max-content;
+        color: #4586D5;
+        font-family: Mulish;
+        letter-spacing: 0.2vh;
+    }
+    
+    .main .sec8head h1 {
+        font-size: 16vh;
+        width: max-content;
+    }
+    
+    .main .sec8head button {
+        border: 0.3vh solid #FAD110;
+        height: 19vh;
+        letter-spacing: 0.3vh;
+        color: #4586D5;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 160vw;
+        font-size: 8.3vh;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    
+    .sec8cards {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 12vh;
+        text-align: center;
+        position: relative;
+    
+    }
+    
+    .main .sec8card img {
+        height: 130vh;
+        width: 280vw;
+        border: 0.2vh solid rgba(0, 0, 0, 0.272);
+    }
+    
+    .main .sec8card p {
+        margin-top: 7vh;
+        width: max-content;
+        font-size: 9.2vh;
+        margin-left: 22.7vh;
+    }
+    
+    .main .sec8card h1 {
+        font-size: 13.5vh;
+        margin-left: 62vh;
+    }
+    
+    .main .card2 span {
+        background-color: #4586D5;
+        color: white;
+        height: 9.4vh;
+        position: absolute;
+        left: 61.4vh;
+        width: 50vw;
+        font-size: 6.1vh;
+        text-align: center;
+        top: 312vh;
+    }
+    
+    .main .card3 span {
+        background-color: #B94040;
+        color: white;
+        height: 9.4vh;
+        position: absolute;
+        left: 61.8vh;
+        width: 50vw;
+        font-size: 6.1vh;
+        text-align: center;
+        top: 501vh;
+    }
+    
+    .main .card4 span {
+        background-color: #142336;
+        color: white;
+        height: 10.4vh;
+        position: absolute;
+        left: 42vh;
+        width: 120vw;
+        font-size: 6.1vh;
+        text-align: center;
+        top: 685vh;
+    }
+    .main .sec9 {
+        height: 501vh;
+        width: 185.5vh;
+        padding: 10vh 10vh 0vh 10vh;
+        position: relative;
+        background: #F3F8FC;
+    }
+    
+    .sec9head {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .main .sec9head h1 {
+        font-size: 17.8vh;
+        letter-spacing: 0.3vh;
+    }
+    
+    .main .sec9head h2 {
+        font-size: 13.5vh;
+        letter-spacing: 0.4vh;
+        font-family: mulish;
+        text-transform: uppercase;
+        color: #4586D5;
+    }
+    
+    .sec9cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 8vh;
+        margin-left: 22vh;
+    }
+    
+    .main .sec9card1 h6 {
+        display: none;
+    }
+    
+    .sec9card1 span {
+        color: #4586D5;
+    }
+    
+    .main .sec9card1 p {
+        font-size: 8vh;
+        color: rgba(0, 0, 0, 0.369);
+        font-family: mulish;
+        margin-bottom: 17vh;
+    }
+    
+    .main .sec9card1 img {
+        height: 82vh;
+    }
+    
+    .main .sec9card1 h1 {
+        font-size: 8.3vh;
+        width: max-content;
+    }
+    
+    .main .sec10banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        padding: 5vh;
+        height: 185vh;
+        background-color: #4586D5;
+        align-items: center;
+        position: absolute;
+        top: 493vh;
+        z-index: 9;
+    }
+    
+    .main .sec10bannercall {
+        display: flex;
+        gap: 3vh;
+    }
+    
+    .main .sec10bannerhead h1 {
+        font-size: 13vh;
+        letter-spacing: 0.3vh;
+        color: white;
+    }
+    
+    .main .sec10bannerhead h2 {
+        font-size: 9vh;
+        margin-top: 3vh;
+        letter-spacing: 0.3vh;
+        color: #FAD110;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    .main .sec10bannerhead {
+        position: absolute;
+        top: 10vh;
+        left: 10vh;
+    }
+    
+    .main .sec10bannercalltxt h1 {
+        font-size: 17vh;
+        color: #FAD110;
+        font-weight: 100;
+    }
+    .main .sec10bannercalltxt {
+        position: absolute;
+        top: 140vh;
+        left: 10vh;
+    }
+    .main .sec10bannercalltxt p {
+        font-size: 9vh;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .main .sec10bannercallimg img {
+        height: 48vh;
+        text-align: center;
+        position: absolute;
+        left: 15vh;
+        top: 75vh;
+    }
+    .main .sec10 {
+        margin-top: 50vh;
+        height: 591vh;
+        width: 187vh;
+        padding: 10vh 10vh 0vh 10vh;
+        padding-top: 150vh;
+        position: relative;
+        background: #142336;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 0.3vh solid #444444;
+    }
+    
+    .Contactus {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main .Contactus h1 {
+        font-size: 14vh;
+    }
+    
+    .main .Contactus p {
+        line-height: 20vh;
+        letter-spacing: 0.1vh;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 8vh;
+        margin-top: 4vh;
+        font-weight: 100;
+        font-family: mulish;
+    }
+    
+    .main .Contactus::after {
+        position: absolute;
+        top: 161vh;
+        left: 66vh;
+        height: 0.7vh;
+        width: 148.7vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Quicklinks {
+        margin-left: 1vh;
+        margin-top: 10vh;
+    }
+    
+    .main .Quicklinks h1 {
+        font-size: 14vh;
+    }
+    
+    .main .Quicklinks::after {
+        position: absolute;
+        top: 284vh;
+        left: 67vh;
+        height: 0.7vh;
+        width: 148.7vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Quicklinks ul {
+        list-style-type: none;
+        line-height: 14vh;
+        letter-spacing: 0.2vh;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 8vh;
+        margin-top: 4vh;
+        font-weight: 100;
+        font-family: mulish;
+    }
+    
+    .main .Quicklinks2 ul {
+        list-style-type: none;
+        line-height: 14vh;
+        letter-spacing: 0.2vh;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 8vh;
+        top: 292vh;
+        left: 62vh;
+        font-weight: 100;
+        position: absolute;
+        font-family: mulish;
+    }
+    
+    .main .Whatsnews::after {
+        position: absolute;
+        top: 374vh;
+        left: 78vh;
+        height: 0.7vh;
+        width: 118.7vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Whatsnews {
+        margin-left: 1vh;
+        margin-top: 7vh;
+    }
+    
+    .main .Whatsnews h1 {
+        font-size: 14.3vh;
+    }
+    
+    .main .sec10cards {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        margin-top: 5vh;
+    }
+    
+    .main .sec10card {
+        display: flex;
+        flex-direction: row;
+        gap: 2vh;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .main .sec10card img {
+        height: 25vh;
+        width: 35vw;
+    }
+    
+    .main .sec10card h2 {
+        font-size: 9.3vh;
+    }
+    
+    .main .sec10card p {
+        font-size: 9.3vh;
+    }
+    
+    .main .Subscribe {
+        margin-left: 1vh;
+        margin-top: 9vh;
+    }
+    
+    .main .Subscribe h1 {
+        font-size: 14.5vh;
+    }
+    
+    .main .Subscribe::after {
+        position: absolute;
+        top: 474vh;
+        left: 64vh;
+        height: 0.7vh;
+        width: 158.7vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Subscribe p {
+        margin-top: 3vh;
+        font-size: 7.4vh;
+        margin-bottom: 3vh;
+        font-weight: 100;
+        font-family: mulish;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .main .Subscribe input {
+        height: 16vh;
+        width: 105vh;
+        background: transparent;
+        border: 0.2vh solid rgba(255, 255, 255, 0.534);
+        padding-left: 4vh;
+        padding-top: 4vh;
+        margin-bottom: 2vh;
+    }
+    
+    .main .Subscribe input::placeholder {
+        font-size: 8vh;
+        color: rgba(255, 255, 255, 0.531);
+    }
+    
+    .main .Subscribe button {
+        height: 10vh;
+        width: 40vh;
+        background-color: #FAD110;
+        font-size: 6.2vh;
+        margin-top: 5vh;
+        letter-spacing: 0.2vh;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    
+    .main .footer p {
+        text-align: center;
+        font-size: 7.5vh;
+        color: #F3F8FC;
+    }
+    .main .footer {
+        background-color: #142336;
+        height: 25vh;
+        width: 187vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer span {
+        color: #FAD110;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .main .nav {
+        display: flex;
+        justify-content: center;
+        height: 32vh;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+    }
+
+    .nav li {
+        display: none;
+    }
+    .nav .menu i {
+        display: flex;
+        font-size: 9vh;
+        margin-left: 500vh;
+    }
+    .nav .icons {
+        display: none;
+    }
+    .nav p {
+        display: none;
+    }
+    .nav .logo img {
+        width: 48vw;
+        height: 15vh;
+        cursor: pointer;
+        position: absolute;
+        right: -23vh;
+        bottom: -2.5vh;
+    }
+    
+    .main .nav .logo {
+        background: #ffffff;
+    }
+    
+    .logo::after {
+        display: none;
+    }
+    .main .sec1 {
+        background-image: url(imgs/sec\ 1\ bg\ 2.jpg);
+        width: 315vw;
+        height: 390vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .sec1 .sec1box {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        left: 16.5vh;
+        top: 75.7vh;
+        padding: 13vh;
+        padding-bottom: 0vh;
+        position: absolute;
+        height: 190vh;
+        width: 285vw;
+        font-family: mulish, Saira Condensed, sans-serif;
+    }
+    
+    .sec1 .sec1box h1 {
+        text-transform: uppercase;
+        font-size: 23vh;
+        margin-bottom: 1.2vh;
+    }
+    
+    .sec1 .sec1box p {
+        font-family: Mulish;
+        font-size: 10.5vh;
+        font-weight: 100;
+        margin-bottom: 10.3vh;
+    }
+    
+    .sec1 .sec1box button {
+        height: 28.5vh;
+        margin-top: 20vh;
+        width: 135vh;
+        border: none;
+        font-size: 12.6vh;
+        font-weight: 700;
+        background-color: #FAD110;
+        letter-spacing: 0.2vh;
+        cursor: pointer;
+    }
+    .sec1 .sec1cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        position: absolute;
+        gap: 12vh;
+        text-align: center;
+        top: 330vh;
+        left: 1.5%;
+    }
+    
+    .sec1cards .sec1card {
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.47);
+        padding-top: 18.5vh;
+        width: 140.4vw;
+        height: 83vh;
+    }
+    
+    .sec1cards .sec1card h1 {
+        font-weight: 100;
+        font-size: 13.2vh;
+        margin-top: 1.3vh;
+    }
+    
+    .sec1cards .sec1card img {
+        height: 29.6vh;
+        width: 45.5vw;
+    }
+    .main .sec2 {
+        width: 100%;
+        height: 420vh;
+        margin-top: 160vh;
+        margin-bottom: 120vh;
+        padding-left: 3vh;
+        padding-right: 3vh;
+        position: relative;
+    }
+    
+    .sec2 .sec2head {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 8vh;
+        flex-direction: row;
+    }
+    
+    .sec2 .sec2heading h1 {
+        font-size: 18.7vh;
+        width: max-content;
+        font-weight: 600;
+        letter-spacing: 0.2vh;
+    }
+    
+    .sec2 .sec2heading h2 {
+        font-size: 16.7vh;
+        width: max-content;
+        letter-spacing: 0.3vh;
+        font-weight: 100;
+        color: #4586D5;
+        text-transform: uppercase;
+    }
+    
+    .sec2 .sec2headbutton button {
+        border: 0.3vh solid #FAD110;
+        height: 24vh;
+        letter-spacing: 0.3vh;
+        color: #4586D5;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 90vw;
+        font-size: 12vh;
+        cursor: pointer;
+        margin-left: 40vh;
+        background-color: transparent;
+    }
+    .sec2 .sec2cards {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15vh;
+        margin-top: 15vh;
+        margin-left: 70.5vh;
+    }
+    
+    .sec2 .sec2card {
+        box-shadow: 0px 0.8vh 1.8vh rgba(74, 103, 141, 0.16);
+        background-color: white;
+        height: 230vh;
+        width: 180vw;
+        text-align: center;
+        letter-spacing: 0.1vh;
+    }
+    
+    .sec2 .sec2card img {
+        width: 180vw;
+        height: 118vh;
+    }
+    
+    .sec2  .sec2card p {
+        font-size: 12.6vh;
+        font-weight: 100;
+        margin-top: 0.5vh;
+        margin-bottom: 1.3vh;
+    }
+    
+    .sec2 .sec2card h1 {
+        font-size: 14vh;
+        margin-top: 4vh;
+    }
+    
+    .sec2 .sec2card h2 {
+        font-size: 11vh;
+        font-weight: 100;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .sec2 .sec2card i {
+        display: none;
+    }
+    .main .sec3 {
+        height: 440vh;
+        width: 337vh;
+        background-color: #142336;
+        position: relative;
+        margin-top: 411vh;
+    }
+    
+    .main .sec3cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 59vh;
+        flex-wrap: wrap;
+        margin-top: 70vh;
+    }
+    
+    .main .sec3card h1 {
+        font-family: Mulish;
+        font-size: 29.7vh;
+        font-weight: 900;
+        color: white;
+        text-align: center;
+        margin-top: 1.3vh;
+    }
+    .main .sec3card {
+        text-align: center;
+    }
+    .main .sec3cards h2 {
+        font-size: 21.4vh;
+        margin-bottom: 8.3vh;
+        text-align: center;
+        color: #4586D5;
+    }
+    
+    .main .sec3cards img {
+        height: 36vh;
+        text-align: center;
+        width: 32vw;
+    }
+    .main .sec4 {
+        height: 600vh;
+        width: 100%;
+        position: relative; 
+    }
+    
+    .main .img2 {
+        width: 127vw;
+        height: 85vh;
+        top: 104vh;
+        left: 170vh;
+        position: absolute;
+    }
+    
+    .sec4left .img1 {
+        width: 197vw;
+        height: 120vh;
+        left: 61vh;
+        position: absolute;
+    }
+
+    .main .sec4left {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20vh;
+    }
+    
+    .main .sec4right {
+        position: absolute;
+        top: 200vh;
+        left: -10vh;
+    }
+    
+    .main .sec4right h3 {
+        margin-top: 32vh;
+        font-family: Mulish;
+        font-size: 10.5vh;
+        width: max-content;
+        color: #4586D5;
+    }
+    
+    .main .sec4right h1 {
+        font-size: 24vh;
+        letter-spacing: 0.1vh;
+        width: fit-content;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    
+    .main .sec4right p {
+        font-size: 10.1vh;
+        width: 265vw;
+        line-height: 1.8;
+        font-weight: 100;
+        font-family: Mulish;
+        margin-top: 7vh;
+    }
+    .main .sec4right br {
+        display: none;
+    }
+    
+    .main .sec4right li {
+        list-style-type: none;
+        font-size: 9.9vh;
+        width: fit-content;
+        line-height: 2.2;
+        font-family: Mulish;
+        font-weight: 100;
+    }
+    
+    .main .sec4right ul {
+        margin-top: 10vh;
+        margin-bottom: 1.9vh;
+    }
+    
+    .main .sec4right button {
+        border: 0.9vh solid #FAD110;
+        height: 34vh;
+        margin-top: 12vh;
+        letter-spacing: 0.3vh;
+        color: #4586D5;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 130vw;
+        font-size: 13.4vh;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .main .sec5 {
+        height: 570vh;
+        width: 100%;
+        padding: 0vh 0vh 17vh 0vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main .sec5right {
+        padding-left: 21vh;
+        padding-top: 30vh;
+        width: 336.9vh;
+        height: 450vh;
+        background-color: #4586D5;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10vh;
+    }
+
+    .main .sec5right input {
+        background: transparent;
+        border: 0.1vh solid rgba(255, 255, 255, 0.398);
+        margin-right: 7vh;
+        width: 127.5vw;
+        height: 28.5vh;
+        padding: 4vh;
+        padding-top: 7vh;
+        font-family: Mulish;
+        margin-bottom: 25vh;
+        outline: none;
+        color: white;
+    }
+    
+    .main .sec5right input::placeholder {
+        color: white;
+        font-size: 9.4vh;
+        font-weight: lighter;
+    }
+    .main .sec5right br {
+        display: none;
+    }
+    .main .message input {
+        width: 249.5vw;
+        height: 72.5vh;
+    }
+    
+    .main .sec5right h1 {
+        font-size: 24vh;
+        color: white;
+        margin-bottom: 4vh;
+    }
+    
+    .main .sec5right button {
+        border: 0.3vh solid #FAD110;
+        height: 23vh;
+        letter-spacing: 0.3vh;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 90vw;
+        font-size: 8.8vh;
+        cursor: pointer;
+        background-color: #FAD110;
+    }
+    
+    .main .sec5left img {
+        width: 336.9vh;
+        height: 350vh;
+    }
+    
+    .main .sec5left i {
+        background-color: #4586D5;
+        position: absolute;
+        height: 34.5vh;
+        width: 34.5vh;
+        font-size: 22vh;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        left: 150vh;
+        top: 505vh;
+    }
+    .main .sec6 {
+        height: 720vh;
+        width: 100%;
+        position: relative;
+        margin-top: 150vh;
+        padding-left: 20vh;
+    }
+    
+    .main .sec6head {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 50vh;
+    }
+    
+    .main .sec6head h2 {
+        color: #4586D5;
+        text-transform: uppercase;
+        letter-spacing: 0.2vh;
+        font-weight: 100;
+        font-size: 13.3vh;
+        text-align: center;
+    }
+    
+    .main .sec6head h1 {
+        letter-spacing: 0.2vh;
+        font-size: 19.8vh;
+        width: max-content;
+        text-align: center;
+    }
+    
+    .sec6cards {
+        display: flex;
+        flex-direction: column;
+        gap: 90vh;
+        justify-content: center;
+        
+    }
+    
+    .main .sec6card p {
+        font-size: 11.1vh;
+        width: fit-content;
+        line-height: 1.8;
+        font-family: Mulish;
+        font-style: italic;
+        font-weight: 100;
+    }
+
+    .main .sec6card {
+        background-color: rgb(255, 255, 255);
+        width: 262vw;
+        height: 110vh;
+        border-radius: 0.5vh;
+        padding: 9.2vh;
+        border-top: 1.7vh solid #FAD110;
+        box-shadow: 0px 5px 15px rgba(74, 103, 141, 0.16);
+        position: relative;
+    }
+    
+    .main .sec6smallcard1 {
+        display: flex;
+        gap: 3.9vh;
+        position: absolute;
+        top: 190vh;
+        left: 17vh;
+    }
+    
+    .main .sec6smallcard1 img {
+        height: 52.4vh;
+        width: 62.5vw;
+    }
+    
+    .main .cardtxt h1 {
+        font-size: 13.6vh;
+        width: max-content;
+    }
+    
+    .main .cardtxt span {
+        width: max-content;
+        font-size: 10.9vh;
+        font-style: italic;
+        color: #4586D5;
+    }
+    
+    .main .sec6smallcard2 {
+        display: flex;
+        gap: 3.9vh;
+        position: absolute;
+        top: 387vh;
+        left: 17vh;
+    }
+    
+    .main .sec6smallcard2 img {
+        height: 52.4vh;
+        width: 62.5vw;
+    }
+    
+    
+    .main .sec6smallcard3 {
+        display: flex;
+        gap: 3.9vh;
+        position: absolute;
+        top: 587vh;
+        left: 17vh;
+    }
+    
+    .main .sec6smallcard3 img {
+        height: 52.4vh;
+        width: 62.5vw;
+    }
+    .main .sec7 {
+        height: 206vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 336.9vh;
+        text-transform: uppercase;
+        background-image: url(imgs/sec\ 7\ bg\ 2.jpg);
+        color: white;
+        position: relative;
+        padding: 5vh;
+    }
+    
+    .main .sec7 h1 {
+        font-size: 25vh;
+        text-shadow: 4px 1px 7px rgba(0, 0, 0, 0.32);
+        margin-top: 0.8vh;
+        margin-bottom: 1.7vh;
+        outline: black;
+    }
+    
+    .main .sec7 h2 {
+        font-size: 15.9vh;
+        font-weight: 100;
+        text-shadow: 4px 1px 7px rgba(0, 0, 0, 0.32);
+    }
+    
+    .main .sec7 button {
+        cursor: pointer;
+        background-color: #FAD110;
+        width: 99vw;
+        font-size: 9.7vh;
+        letter-spacing: 0.2vh;
+        text-transform: uppercase;
+        font-weight: 900;
+        height: 25vh;
+        border: none;
+        text-align: center;
+        position: absolute;
+        left: 36.5%;
+        top: 84%;
+    }
+    .main .sec8 {
+        height: 490vh;
+        width: 300vh;
+        padding: 10vh 10vh 0vh 10vh;
+        position: relative;
+    }
+    
+    .sec8head {
+        display: flex;
+        justify-content: space-between;
+        letter-spacing: 0.2vh;
+        flex-direction: row;
+    }
+    
+    .main .sec8head h2 {
+        font-size: 12.9vh;
+        width: max-content;
+        color: #4586D5;
+        font-family: Mulish;
+        letter-spacing: 0.2vh;
+    }
+    
+    .main .sec8head h1 {
+        font-size: 17.4vh;
+        width: max-content;
+    }
+    
+    .main .sec8head button {
+        border: 0.3vh solid #FAD110;
+        height: 25vh;
+        letter-spacing: 0.3vh;
+        color: #4586D5;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 110vw;
+        font-size: 8.3vh;
+        margin-left: 50vh;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    
+     .sec8cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 12vh;
+        position: relative;
+    }
+    
+    .main .sec8card img {
+        height: 130vh;
+        width: 120vh;
+        border: 0.2vh solid rgba(0, 0, 0, 0.272);
+    }
+    
+    .main .sec8card p {
+        margin-top: 7vh;
+        width: max-content;
+        font-size: 9.2vh;
+        margin-left: 15.7vh;
+    }
+    
+    .main .sec8card h1 {
+        font-size: 13.5vh;
+        margin-left: 9vh;
+    }
+    
+    .main .card2 span {
+        display: none;
+    }
+    
+    .main .card3 span {
+        display: none;
+    }
+    
+    .main .card4 span {
+        display: none;
+    }
+    .main .sec9 {
+        height: 401vh;
+        width: 335.5vh;
+        padding: 10vh 10vh 0vh 10vh;
+        position: relative;
+        background: #F3F8FC;
+    }
+    
+    .sec9head {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .main .sec9head h1 {
+        font-size: 17.8vh;
+        letter-spacing: 0.3vh;
+    }
+    
+    .main .sec9head h2 {
+        font-size: 13.5vh;
+        letter-spacing: 0.4vh;
+        font-family: mulish;
+        text-transform: uppercase;
+        color: #4586D5;
+    }
+    
+    .sec9cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 8vh;
+        margin-left: 22vh;
+    }
+    
+    .main .sec9card1 h6 {
+        display: none;
+    }
+    
+    .sec9card1 span {
+        color: #4586D5;
+    }
+    
+    .main .sec9card1 p {
+        font-size: 8vh;
+        color: rgba(0, 0, 0, 0.369);
+        font-family: mulish;
+        margin-bottom: 17vh;
+    }
+    
+    .main .sec9card1 img {
+        height: 82vh;
+    }
+    
+    .main .sec9card1 h1 {
+        font-size: 8.3vh;
+        width: max-content;
+    }
+    
+    .main .sec10banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        padding: 5vh;
+        height: 201vh;
+        background-color: #4586D5;
+        align-items: center;
+        position: absolute;
+        top: 343vh;
+        padding-bottom: 3vh;
+        z-index: 9;
+    }
+    
+    .main .sec10bannercall {
+        display: flex;
+        gap: 5vh;
+    }
+    
+    .main .sec10bannerhead h1 {
+        font-size: 16vh;
+        letter-spacing: 0.3vh;
+        color: white;
+    }
+    
+    .main .sec10bannerhead h2 {
+        font-size: 12vh;
+        margin-top: 3vh;
+        letter-spacing: 0.3vh;
+        color: #FAD110;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    .main .sec10bannerhead {
+        position: absolute;
+        top: 10vh;
+        left: 10vh;
+    }
+    
+    .main .sec10bannercalltxt h1 {
+        font-size: 20.5vh;
+        color: #FAD110;
+        font-weight: 100;
+    }
+    .main .sec10bannercalltxt {
+        position: absolute;
+        top: 140vh;
+        left: 10vh;
+    }
+    .main .sec10bannercalltxt p {
+        font-size: 14vh;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .main .sec10bannercallimg img {
+        height: 58vh;
+        text-align: center;
+        position: absolute;
+        left: 15vh;
+        top: 75vh;
+    }
+    .main .sec10 {
+        margin-top: 50vh;
+        height: 499vh;
+        width: 336.9vh;
+        padding: 10vh 10vh 0vh 10vh;
+        padding-top: 150vh;
+        position: relative;
+        background: #142336;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-bottom: 0.3vh solid #444444;
+    }
+    
+    .Contactus {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main .Contactus h1 {
+        font-size: 14vh;
+    }
+    
+    .main .Contactus p {
+        line-height: 20vh;
+        letter-spacing: 0.1vh;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 8vh;
+        margin-top: 4vh;
+        font-weight: 100;
+        font-family: mulish;
+    }
+    
+    .main .Contactus::after {
+        position: absolute;
+        top: 161vh;
+        left: 66vh;
+        height: 0.7vh;
+        width: 110.7vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Quicklinks {
+        margin-left: 19.5vh;
+        margin-top: 1.5vh;
+    }
+    
+    .main .Quicklinks h1 {
+        font-size: 14vh;
+    }
+    
+    .main .Quicklinks::after {
+        position: absolute;
+        top: 163vh;
+        left: 252vh;
+        height: 0.7vh;
+        width: 78.7vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Quicklinks ul {
+        list-style-type: none;
+        line-height: 14vh;
+        letter-spacing: 0.2vh;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 8vh;
+        margin-top: 4vh;
+        font-weight: 100;
+        font-family: mulish;
+    }
+    
+    .main .Quicklinks2 ul {
+        list-style-type: none;
+        line-height: 14vh;
+        letter-spacing: 0.2vh;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 8vh;
+        top: 169vh;
+        left: 252vh;
+        font-weight: 100;
+        position: absolute;
+        font-family: mulish;
+    }
+    
+    .main .Whatsnews::after {
+        position: absolute;
+        top: 316vh;
+        left: 78vh;
+        height: 0.7vh;
+        width: 88.7vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Whatsnews {
+        margin-left: 1vh;
+        margin-top: -63vh;
+    }
+    
+    .main .Whatsnews h1 {
+        font-size: 14.3vh;
+    }
+    
+    .main .sec10cards {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        margin-top: 5vh;
+    }
+    
+    .main .sec10card {
+        display: flex;
+        flex-direction: row;
+        gap: 5.5vh;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .main .sec10card img {
+        height: 25vh;
+        width: 35vw;
+    }
+    
+    .main .sec10card h2 {
+        font-size: 9.3vh;
+    }
+    
+    .main .sec10card p {
+        font-size: 9.3vh;
+    }
+    
+    .main .Subscribe {
+        margin-left: 27vh;
+        margin-top: -62vh;
+    }
+    
+    .main .Subscribe h1 {
+        font-size: 14.5vh;
+    }
+    
+    .main .Subscribe::after {
+        position: absolute;
+        top: 315vh;
+        left: 245vh;
+        height: 0.7vh;
+        width: 80.7vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Subscribe p {
+        margin-top: 3vh;
+        font-size: 7.4vh;
+        margin-bottom: 3vh;
+        font-weight: 100;
+        font-family: mulish;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .main .Subscribe input {
+        height: 16vh;
+        width: 105vh;
+        background: transparent;
+        border: 0.2vh solid rgba(255, 255, 255, 0.534);
+        padding-left: 4vh;
+        padding-top: 4vh;
+        margin-bottom: 2vh;
+    }
+    
+    .main .Subscribe input::placeholder {
+        font-size: 8vh;
+        color: rgba(255, 255, 255, 0.531);
+    }
+    
+    .main .Subscribe button {
+        height: 10vh;
+        width: 40vh;
+        background-color: #FAD110;
+        font-size: 6.2vh;
+        margin-top: 5vh;
+        letter-spacing: 0.2vh;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    
+    .main .footer p {
+        text-align: center;
+        font-size: 10.5vh;
+        color: #F3F8FC;
+    }
+    .main .footer {
+        background-color: #142336;
+        height: 35vh;
+        width: 336.9vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer span {
+        color: #FAD110;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .main .nav {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20vh;
+        width: max-content;
+        height: 9vh;
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+    }
+    .menu i {
+        display: none;
+    }
+    
+    .main .nav ul {
+        list-style: none;
+        display: flex;
+        gap: 3.5vh;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: "Saira Condensed", sans-serif;
+        font-size: 2.4vh;
+        cursor: pointer;
+        margin-left: 12vh;
+    }
+    
+    .main .nav li:hover {
+        color: #4586D5;
+    }
+    
+    .main .icons {
+        display: flex;
+        gap: 2vh;
+        font-size: 3vh;
+        margin-left: 4vh;
+        cursor: pointer;
+    
+    }
+    .main .navitems1 {
+        margin-right: 12vh
+    }
+    .main .navitems2 {
+        margin-right: 10vh
+    }
+    .main .logo img {
+        width: 85%;
+        height: 6.5vh;
+        margin-left: 1vh;
+        cursor: pointer;
+    }
+    
+    .main .logo {
+        background: #ffffff;
+        margin-left: 19vh;
+        text-align: center;
+        padding: 3vh 2.5vh;
+        top: -1.6vh;
+        position: absolute;
+        width: 18vw;
+        height: 10vh;
+    }
+    
+    .main .logo::after {
+        display: none;
+    }
+    
+    .main .nav p {
+        font-family: Mulish, sans-serif;
+        font-size: 2.6vh;
+        font-weight: 700;
+        color: #4586D5;
+        padding: 1.3vh;
+        border: 0.4vh solid #FAD110;
+        width: max-content;
+        text-align: center;
+        position: absolute;
+        left: 154vh;
+   }
+    
+    .main .sec1 {
+        background-image: url(imgs/sec\ 1\ bg.webp);
+        width: 127vw;
+        height: 82vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .main .sec1box {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        left: 45vh;
+        top: 15.7vh;
+        padding: 5vh;
+        position: absolute;
+        height: 50vh;
+        width: 65vw;
+        font-family: mulish, Saira Condensed, sans-serif;
+    }
+    
+    .main .sec1box h1 {
+        text-transform: uppercase;
+        font-size: 7vh;
+        margin-bottom: 0.7vh;
+    }
+    
+    .main .sec1box p {
+        font-family: Mulish;
+        font-size: 3.4vh;
+        font-weight: 100;
+        margin-bottom: 2.3vh;
+    }
+    
+    .main .sec1box button {
+        height: 33.5vh;
+        width: 26vh;
+        border: none;
+        font-size: 2.7vh;
+        font-weight: 700;
+        background-color: #FAD110;
+        letter-spacing: 0.2vh;
+        cursor: pointer;
+    }
+    
+    .main .sec1box button:hover {
+        height: 33.5vh;
+        width: 26vh;
+        border: none;
+        font-size: 2.7vh;
+        font-weight: 700;
+        background-color: #FAD110;
+        letter-spacing: 0.2vh;
+        cursor: pointer;
+        color: white;
+    }
+    
+    .main .sec1cards {
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        gap: 3vh;
+        text-align: center;
+        top: 75vh;
+        left: 2.7%;
+    }
+    
+    .main .sec1card {
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.116);
+        padding: 2.6vh;
+        width: 28.4vw;
+        height: 28vh;
+    }
+    
+    .main .sec1card h1 {
+        font-weight: 100;
+        font-size: 4.2vh;
+        margin-top: 1.3vh;
+    }
+    
+    .main .sec1card img {
+        height: 9.5vh;
+        width: 7.5vw;
+    }
+    
+    .main .sec2 {
+        width: max-content;
+        height: 115vh;
+        width: 127vw;
+        margin-top: 25vh;
+        padding-left: 8vh;
+        padding-right: 14vh;
+        position: relative;
+    }
+    
+    .sec2head {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 3vh;
+    }
+    
+    .main .sec2heading h1 {
+        font-size: 6.7vh;
+        font-weight: 600;
+        letter-spacing: 0.2vh;
+    }
+    
+    .main .sec2heading h2 {
+        font-size: 4.7vh;
+        letter-spacing: 0.3vh;
+        font-weight: 100;       
+        color: #4586D5;
+        text-transform: uppercase;
+    }
+    
+    .main .sec2headbutton button {
+        border: 0.3vh solid #FAD110;
+        height: 8vh;
+        letter-spacing: 0.3vh;
+        color: #4586D5;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 20vw;
+        font-size: 3.1vh;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    
+    .sec2cards {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 10vh;
+        margin-left: 3vh;
+    }
+    
+    .main .sec2card {
+        box-shadow: 0px 0.8vh 1.8vh rgba(74, 103, 141, 0.16);
+        background-color: white;
+        height: 79vh;
+        width: 35vw;
+        text-align: center;
+        letter-spacing: 0.1vh;
+    }
+
+    .main .sec2card img {
+        width: 35vw;
+        height: 36vh;
+    }
+    
+    .main .sec2card p {
+        font-size: 3.4vh;
+        font-weight: 100;
+        margin-top: 1.5vh;
+        margin-bottom: 1.3vh;
+    }
+    
+    .main .sec2card h1 {
+        font-size: 5vh;
+        margin-top: 8vh;
+    }
+    
+    .main .sec2card h2 {
+        font-size: 2.5vh;
+        font-weight: 100;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .main .sec2card i {
+        font-size: 4.5vh;
+        background-color: #FAD110;
+        height: 9vh;
+        width: 9vh;
+        align-items: center;
+        color: #142336;
+        position: absolute;
+        padding-top: 2vh;
+        top: 58vh;
+        margin-left: -29vh;
+        cursor: pointer;
+        text-align: center;
+        -webkit-transition: all, 0.3s;
+        -o-transition: all, 0.3s;
+        transition: all, 0.3s;
+    }
+    
+    .sec2card i::after {
+        position: absolute;
+        left: 0;
+        bottom: -1.2vh;
+        border-left: 4.3vh solid transparent;
+        border-right: 4.3vh solid transparent;
+        border-top: 1.3vh solid #FAD110;
+        content: "";
+        -webkit-transition: all, 0.3s;
+        -o-transition: all, 0.3s;
+        transition: all, 0.3s;
+    }
+    
+    .sec2card i:hover {
+        font-size: 4.5vh;
+        background-color: #4586D5;
+        height: 9vh;
+        width: 9vh;
+        align-items: center;
+        color: #ffffff;
+        position: absolute;
+        padding-top: 2vh;
+        top: 47vh;
+        margin-left: -29vh;
+        cursor: pointer;
+        text-align: center;
+        -webkit-transition: all, 0.3s;
+        -o-transition: all, 0.3s;
+        transition: all, 0.3s;
+    }
+    
+    .sec2card i::after:hover {
+        position: absolute;
+        left: 0;
+        bottom: -1.2vh;
+        border-left: 4.3vh solid transparent;
+        border-right: 4.3vh solid transparent;
+        border-top: 1.3vh solid #4586D5;
+        content: "";
+        -webkit-transition: all, 0.3s;
+        -o-transition: all, 0.3s;
+        transition: all, 0.3s;
+    }
+    
+    .main .sec3 {
+        height: 50vh;
+        width: max-content;
+        background-color: #142336;
+        position: relative;
+        padding-top: 11vh;
+    }
+    .main .sec3cards {
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 20vh;
+        padding-right: 20vh;
+        align-items: flex-end;
+        text-align: center;
+        gap: 12vh;
+        padding-bottom: 5vh;
+    }
+    .main .sec3card h1 {
+        font-family: Mulish;
+        font-size: 7.2vh;
+        font-weight: 900;
+        color: white;
+        margin-top: 1.3vh;
+    }
+    .main .sec3cards h2 {
+        font-size: 4.4vh;
+        margin-top: 1.3vh;
+        color: #4586D5;
+    }
+    .main .sec3cards img {
+        height: 13vh;
+        width: 9vw;
+    }
+    
+    .main .sec4 {
+        height: max-content;
+        width: max-content;
+        padding: 17vh 15vh 17vh 15vh;
+        position: relative;
+        padding-right: 0vh;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .main .img2 {
+        position: absolute;
+        height: 33vh;
+        width: 34vw;
+        left: 37.5vh;
+        top: 41vh;
+        border: 1.2vh solid white;
+    }
+    
+    .main .img1 {
+        height: 45vh;
+        width: 66vh;
+    }
+    
+    .main .sec4right {
+        margin-left: 8vh;
+    }
+    
+    .main .sec4right h3 {
+        font-family: Mulish;
+        font-size: 3.9vh;
+        color: #4586D5;
+    }
+    
+    .main .sec4right h1 {
+        font-size: 6.1vh;
+        letter-spacing: 0.1vh;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    
+    .main .sec4right p {
+        font-size: 2.2vh;
+        line-height: 1.8;
+        font-weight: 100;
+        font-family: Mulish;
+    }
+    
+    .main .sec4right li {
+        list-style-type: none;
+        font-size: 2.5vh;
+        line-height: 2.2;
+        font-family: Mulish;
+        font-weight: 100;
+    }
+    
+    .sec4right ul {
+        margin-top: 1vh;
+        margin-bottom: 1.9vh;
+    }
+    
+    .main .sec4right button {
+        border: 0.3vh solid #FAD110;
+        height: 7.4vh;
+        letter-spacing: 0.3vh;
+        color: #4586D5;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 20vw;
+        font-size: 2.8vh;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    
+    .main .sec5 {
+        height: max-content;
+        width: max-content;
+        padding: 0vh 0vh 17vh 0vh;
+        position: relative;
+        display: flex;  
+    }
+    .main .sec5right {
+        padding: 5vh 7vh 5vh 7vh;
+        width: max-content;
+        height: max-content;
+        background-color: #4586D5;
+    }
+    .main .sec5right input {
+        background: transparent;
+        border: 0.1vh solid rgba(255, 255, 255, 0.398);
+        margin-right: 5vh;
+        width: 24.5vw;
+        height: 5.5vh;
+        padding: 1vh 1.5vh 1vh 1.5vh;
+        font-family: Mulish;
+        margin-bottom: 3vh;
+        outline: none;
+        color: white;
+    }
+    .main .sec5right input::placeholder {
+        color: white;
+        font-size: 2.2vh;
+        font-weight: lighter;
+    }
+    .main .message input {
+        width: 52.8vw;
+        height: 13.5vh;
+        vertical-align: text-top;
+    }
+    .main .sec5right h1 {
+        font-size: 5.8vh;
+        color: white;
+        margin-bottom: 4vh;
+    }
+    .main .sec5right button {
+        border: 0.3vh solid #FAD110;
+        height: 7.4vh;
+        letter-spacing: 0.3vh;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 16vw;
+        font-size: 3vh;
+        cursor: pointer;
+        background-color: #FAD110;
+    }
+    .main .sec5left img {
+        width: 60.9vw;
+        height: 67.5vh;
+    }
+    .main .sec5left i {
+        background-color: #4586D5;
+        position: absolute;
+        height: 8.5vh;
+        width: 8.5vh;
+        font-size: 4vh;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        right: 33vh;
+        top: 31vh;
+    }
+    
+    .main .sec6 {
+        height: max-content;
+        width: max-content;
+        padding: 0vh 15vh 17vh 15vh;
+        padding-bottom: 30vh;
+        position: relative;
+    }
+    
+    .main .sec6head {
+        background-image: url(imgs/fan.png.webp);
+        background-position-x: center;
+        background-repeat: no-repeat;
+        background-size: 13vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 19vh;
+    }
+    
+    .main .sec6head h2 {
+        color: #4586D5;
+        text-transform: uppercase;
+        letter-spacing: 0.2vh;
+        font-weight: 100;
+        font-size: 4.3vh;
+    }
+    
+    .main .sec6head h1 {
+        letter-spacing: 0.2vh;
+        font-size: 6.4vh;
+    }
+    
+    .main .sec6cards {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 5vh;
+    }
+    
+    .main .sec6card p {
+        font-size: 2.5vh;
+        line-height: 1.8;
+        font-family: Mulish;
+        font-style: italic;
+        font-weight: 100;
+    }
+    
+    .main .sec6card {
+        background-color: rgb(255, 255, 255);
+        width: 32vw;
+        height: 52vh;
+        border-radius: 0.5vh;
+        padding: 5.2vh;
+        border-top: 0.7vh solid #FAD110;
+        box-shadow: 0px 5px 15px rgba(74, 103, 141, 0.16);
+        position: relative;
+    }
+    
+    .main .sec6card::after {
+        width: 0vw;
+        height: 0vh;
+        border-left: 4vh solid transparent;
+        border-right: 4vh solid transparent;
+        border-top: 4vh solid #e5e5e57e;
+        content: "";
+        box-shadow: 0px 0.0.2vh 0.0.2vh rgb(0, 110, 255);
+        position: absolute;
+        top: 51.6vh;
+    }
+    
+    .main .cardtxt h1 {
+        font-size: 4.6vh;
+    }
+    
+    .main .cardtxt span {
+        font-size: 3.3vh;
+        font-style: italic;
+        color: #4586D5;
+    }
+
+    .main .sec6smallcard1 {
+        display: flex;
+        gap: 1.9vh;
+        position: absolute;
+        top: 77vh;
+        left: 17vh;
+    }
+    
+    .main .sec6smallcard1 img {
+        height: 13vh;
+        width: 9.5vw;
+    }
+
+    .main .sec6smallcard2 {
+        display: flex;
+        gap: 1.9vh;
+        position: absolute;
+        top: 77vh;
+        left: 67vh;
+    }
+    
+    .main .sec6smallcard2 img {
+        height: 13vh;
+        width: 9.5vw;
+    }
+    
+    .main .sec6smallcard3 {
+        display: flex;
+        gap: 1.9vh;
+        position: absolute;
+        top: 77vh;
+        left: 118vh;
+    }
+    
+    .main .sec6smallcard3 img {
+        height: 13vh;
+        width: 9.5vw;
+    }
+    
+    .main .sec7 {
+        height: fit-content;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        padding-left: 25vh;
+        padding-right: 25vh;
+        padding-top: 10vh;
+        padding-bottom: 25vh;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: max-content;
+        text-transform: uppercase;
+        background-image: url(imgs/sec\ 7\ bg.webp);
+        color: white;
+        position: relative;
+    }
+    
+    .main .sec7 h1 {
+        font-size: 9.4vh;
+        text-shadow: 4px 1px 7px rgba(0, 0, 0, 0.32);
+        margin-top: 0.8vh;
+    }
+    
+    .main .sec7 h2 {
+        font-size: 7.3vh;
+        font-weight: 100;
+        text-shadow: 4px 1px 7px rgba(0, 0, 0, 0.32);
+    }
+    
+    .main .sec7 button {
+        cursor: pointer;
+        background-color: #FAD110;
+        width: 25vw;
+        font-size: 3.8vh;
+        letter-spacing: 0.2vh;
+        text-transform: uppercase;
+        font-weight: 900;
+        height: 12vh;
+        padding: 3vh;
+        border: none;
+        text-align: center;
+        position: absolute;
+        left: 43.5%;
+        top: 75%;
+    }
+    
+    .sec7 button:hover {
+        cursor: pointer;
+        background-color: #FAD110;
+        width: 25vw;
+        color: white;
+        font-size: 3.8vh;
+        letter-spacing: 0.2vh;
+        text-transform: uppercase;
+        font-weight: 900;
+        height: 12vh;
+        padding: 3vh;
+        border: none;
+        text-align: center;
+        position: absolute;
+        left: 43.5%;
+        top: 75%;
+    }
+    
+    .main .sec8 {
+        height: max-content;
+        width: max-content;
+        padding: 10vh 3.8vh 0vh 3.8vh;
+        position: relative;
+        padding-bottom: 7vh;
+    }
+    
+    .main .sec8head {
+        display: flex;
+        justify-content: space-between;
+        letter-spacing: 0.2vh;
+    }
+    
+    .main .sec8head h2 {
+        font-size: 3.7vh;
+        color: #4586D5;
+        font-family: Mulish;
+        letter-spacing: 0.2vh;
+    }
+    
+    .main .sec8head h1 {
+        font-size: 6.6vh;
+    }
+    
+    .main .sec8head button {
+        border: 0.3vh solid #FAD110;
+        height: 9vh;
+        letter-spacing: 0.3vh;
+        color: #4586D5;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 23vw;
+        font-size: 3.1vh;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    
+    .sec8cards {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10vh;
+        gap: 2vh;
+        text-align: center;
+        position: relative;
+    
+    }
+    
+    .main .sec8card img {
+        height: 40vh;
+        width: min-content;
+        border: 0.2vh solid rgba(0, 0, 0, 0.272);
+    }
+    
+    .main .sec8card p {
+        margin-top: 3vh;
+        font-size: 2.9vh;
+    }
+    
+    .sec8card h1 {
+        font-size: 4vh;
+    }
+    
+    .main .card2 span {
+        background-color: #4586D5;
+        color: white;
+        height: 3.4vh;
+        position: absolute;
+        left: 59vh;
+        width: 6vw;
+        font-size: 2.1vh;
+        text-align: center;
+        top: 38vh;
+    }
+    
+    .main .card3 span {
+        background-color: #B94040;
+        color: white;
+        height: 3.4vh;
+        position: absolute;
+        left: 101vh;
+        width: 6vw;
+        font-size: 2.1vh;
+        text-align: center;
+        top: 38vh;
+    }
+    
+    .main .card4 span {
+        background-color: #142336;
+        color: white;
+        height: 3.4vh;
+        position: absolute;
+        left: 139vh;
+        width: 10.5vw;
+        font-size: 2.1vh;
+        text-align: center;
+        top: 38vh;
+    }
+    
+    .main .sec9 {
+        height: 91vh;
+        width: max-content;
+        padding: 10vh 6.2vh 0vh 7vh;
+        position: relative;
+        background: #F3F8FC;
+    }
+    
+    .main .sec9head {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .main .sec9head h1 {
+        font-size: 6vh;
+        letter-spacing: 0.3vh;
+    }
+    
+    .main .sec9head h2 {
+        font-size: 3.9vh;
+        letter-spacing: 0.4vh;
+        font-family: mulish;
+        text-transform: uppercase;
+        color: #4586D5;
+    }
+    
+    .main .sec9cards {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 1vh;
+        gap: 5vh;
+    }
+    
+    .main .sec9card1 h6 {
+        background-color: #FAD110;
+        font-size: 2.9vh;
+        color: white;
+        width: max-content;
+        padding: 1vh;
+        text-align: center;
+        margin-left: 18vh;
+        position: absolute;
+        top: 55vh;
+    }
+    
+    .sec9card1 span {
+        color: #4586D5;
+    }
+    
+    .main .sec9card1 p {
+        font-size: 3.1vh;
+        color: rgba(0, 0, 0, 0.369);
+        font-family: mulish;
+    }
+    
+    .sec9card1 img {
+        height: 35.6vh;
+    }
+    
+    .sec9card1 h1 {
+        font-size: 3.6vh;
+    }
+    
+    .main .sec10 {
+        height: max-content;
+        width: max-content;
+        padding: 10vh 1.4vh 0vh 1.5vh;
+        position: relative;
+        background: #142336;
+        color: white;
+        display: flex;
+        border-bottom: 0.3vh solid #444444;
+    }
+    
+    .sec10banner {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        padding: 5vh;
+        height: 15vh;
+        background-color: #4586D5;
+        align-items: center;
+        position: absolute;
+        top: 83vh;
+        z-index: 9;
+    }
+    
+    .sec10bannercall {
+        display: flex;
+        gap: 3vh;
+    }
+    
+    .sec10bannerhead h1 {
+        font-size: 6vh;
+        letter-spacing: 0.3vh;
+        color: white;
+    }
+    
+    .sec10bannerhead h2 {
+        font-size: 3vh;
+        letter-spacing: 0.3vh;
+        color: #FAD110;
+        font-weight: 100;
+    }
+    
+    .sec10bannercalltxt h1 {
+        font-size: 7vh;
+        color: #FAD110;
+        font-weight: 100;
+    }
+    
+    .sec10bannercalltxt p {
+        font-size: 3vh;
+        color: white;
+    }
+    
+    .sec10bannercallimg img {
+        height: 12vh;
+        text-align: center;
+        position: absolute;
+        right: 45vh;
+        top: 1vh;
+    }
+    
+    .Contactus {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main .Contactus h1 {
+        font-size: 3.5vh;
+    }
+    
+    .main .Contactus p {
+        line-height: 6vh;
+        letter-spacing: 0.1vh;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 2.2vh;
+        margin-top: 4vh;
+        font-weight: 100;
+        font-family: mulish;
+    }
+    
+    .main .Contactus::after {
+        position: absolute;
+        top: 12.7vh;
+        left: 15.5vh;
+        height: 0.3vh;
+        width: 21.2vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Quicklinks {
+        margin-left: 5.8vh;
+    }
+    
+    .main .Quicklinks h1 {
+        font-size: 3.5vh;
+    }
+    
+    .main .Quicklinks::after {
+        position: absolute;
+        top: 12.7vh;
+        left: 71vh;
+        height: 0.3vh;
+        width: 12.9vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Quicklinks ul {
+        list-style-type: none;
+        line-height: 4vh;
+        letter-spacing: 0.2vh;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 2.2vh;
+        margin-top: 4vh;
+        font-weight: 100;
+        font-family: mulish;
+    }
+    
+    .Quicklinks2 ul {
+        list-style-type: none;
+        line-height: 4vh;
+        letter-spacing: 0.2vh;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 2.2vh;
+        margin-top: 10.5vh;
+        margin-left: 6vh;
+        font-weight: 100;
+        font-family: mulish;
+    }
+    
+    .main .Whatsnews::after {
+        position: absolute;
+        top: 12.7vh;
+        left: 115vh;
+        height: 0.3vh;
+        width: 11.9vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .Whatsnews {
+        margin-left: 5.8vh;
+    }
+    
+    .main .Whatsnews h1 {
+        font-size: 3.5vh;
+    }
+    
+    .sec10cards {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        margin-top: 5vh;
+    }
+    
+    .sec10card {
+        display: flex;
+        flex-direction: row;
+        gap: 2vh;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .sec10card img {
+        height: 7vh;
+        width: 5vw;
+    }
+    
+    .sec10card h2 {
+        font-size: 2.6vh;
+    }
+    
+    .sec10card p {
+        font-size: 2vh;
+    }
+    
+    .Subscribe {
+        margin-left: 5.8vh;
+    }
+    
+    .main .Subscribe h1 {
+        font-size: 3.5vh;
+    }
+    
+    .main .Subscribe::after {
+        position: absolute;
+        top: 12.7vh;
+        left: 154vh;
+        height: 0.3vh;
+        width: 15.7vw;
+        background: #444444;
+        content: "";
+    }
+    
+    .main .Subscribe p {
+        margin-top: 3vh;
+        font-size: 2.1vh;
+        margin-bottom: 3vh;
+        font-weight: 100;
+        font-family: mulish;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .main .Subscribe input {
+        height: 7vh;
+        width: 38vh;
+        background: transparent;
+        border: 0.2vh solid rgba(255, 255, 255, 0.534);
+        padding-left: 2vh;
+        margin-bottom: 2vh;
+    }
+    
+    .Subscribe input::placeholder {
+        font-size: 2.9vh;
+        color: rgba(255, 255, 255, 0.531);
+    }
+    
+    .Subscribe button {
+        height: 7vh;
+        width: 20vh;
+        background-color: #FAD110;
+        font-size: 2.7vh;
+        letter-spacing: 0.2vh;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    
+    .main .footer p {
+        text-align: center;
+        font-size: 3.8vh;
+        color: #F3F8FC;
+    
+    }
+    
+    .main .footer {
+        background-color: #142336;
+        height: 12vh;
+        width: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 37.5vh;
+        padding-right: 37.8vh;
+    }
+    
+    .footer span {
+        color: #FAD110;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 * {
     padding: 0;
@@ -22,6 +5382,9 @@
     height: 9vh;
     background-color: rgb(255, 255, 255);
     align-items: center;
+}
+.menu i {
+    display: none;
 }
 
 .nav ul {
@@ -286,6 +5649,7 @@
     -o-transition: all, 0.3s;
     transition: all, 0.3s;
 }
+
 .sec2card i:hover {
     font-size: 4.5vh;
     background-color: #4586D5;
@@ -316,6 +5680,7 @@
     -o-transition: all, 0.3s;
     transition: all, 0.3s;
 }
+
 .sec3 {
     height: 40vh;
     width: 100%;
@@ -345,6 +5710,7 @@
     height: 8vh;
     width: 4vw;
 }
+
 .sec4 {
     height: 80vh;
     width: 100%;
@@ -353,6 +5719,7 @@
     display: flex;
     justify-content: space-evenly;
 }
+
 .img2 {
     position: absolute;
     height: 33vh;
@@ -361,30 +5728,36 @@
     top: 41vh;
     border: 1.2vh solid white;
 }
+
 .img1 {
     height: 45vh;
     width: 66vh;
 }
+
 .sec4right {
     margin-left: 20vh;
 }
-.sec4right h3{
+
+.sec4right h3 {
     font-family: Mulish;
     font-size: 2.5vh;
     color: #4586D5;
 }
+
 .sec4right h1 {
     font-size: 4.4vh;
     letter-spacing: 0.1vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
+
 .sec4right p {
     font-size: 1.9vh;
     line-height: 1.8;
     font-weight: 100;
     font-family: Mulish;
 }
+
 .sec4right li {
     list-style-type: none;
     font-size: 1.9vh;
@@ -392,10 +5765,12 @@
     font-family: Mulish;
     font-weight: 100;
 }
+
 .sec4right ul {
     margin-top: 1vh;
     margin-bottom: 1.9vh;
 }
+
 .sec4right button {
     border: 0.3vh solid #FAD110;
     height: 6vh;
@@ -408,6 +5783,7 @@
     cursor: pointer;
     background-color: transparent;
 }
+
 .sec5 {
     height: 80vh;
     width: 100%;
@@ -480,12 +5856,14 @@
     right: 43vh;
     top: 31vh;
 }
+
 .sec6 {
     height: 70vh;
     width: 100%;
     padding: 0vh 15vh 17vh 15vh;
     position: relative;
 }
+
 .sec6head {
     background-image: url(imgs/fan.png.webp);
     background-position-x: center;
@@ -496,6 +5874,7 @@
     text-align: center;
     height: 15vh;
 }
+
 .sec6head h2 {
     color: #4586D5;
     text-transform: uppercase;
@@ -503,14 +5882,17 @@
     font-weight: 100;
     font-size: 2.3vh;
 }
+
 .sec6head h1 {
     letter-spacing: 0.2vh;
     font-size: 4.4vh;
 }
+
 .sec6cards {
     display: flex;
     justify-content: space-evenly;
 }
+
 .sec6card p {
     font-size: 2.2vh;
     line-height: 1.8;
@@ -518,6 +5900,7 @@
     font-style: italic;
     font-weight: 100;
 }
+
 .sec6card {
     background-color: rgb(255, 255, 255);
     width: 26vw;
@@ -528,6 +5911,7 @@
     box-shadow: 0px 5px 15px rgba(74, 103, 141, 0.16);
     position: relative;
 }
+
 .sec6card::after {
     width: 0vw;
     height: 0vh;
@@ -539,6 +5923,7 @@
     position: absolute;
     top: 30.6vh;
 }
+
 .sec6smallcard1 {
     display: flex;
     gap: 1.9vh;
@@ -546,18 +5931,22 @@
     top: 51vh;
     left: 20vh;
 }
+
 .sec6smallcard1 img {
     height: 9vh;
     width: 4.5vw;
 }
+
 .cardtxt h1 {
     font-size: 2.6vh;
 }
+
 .cardtxt span {
     font-size: 1.9vh;
     font-style: italic;
     color: #4586D5;
 }
+
 .sec6smallcard2 {
     display: flex;
     gap: 1.9vh;
@@ -565,18 +5954,22 @@
     top: 51vh;
     left: 77vh;
 }
+
 .sec6smallcard2 img {
     height: 9vh;
     width: 4.5vw;
 }
+
 .cardtxt h1 {
     font-size: 2.6vh;
 }
+
 .cardtxt span {
     font-size: 1.9vh;
     font-style: italic;
     color: #4586D5;
 }
+
 .sec6smallcard3 {
     display: flex;
     gap: 1.9vh;
@@ -584,18 +5977,22 @@
     top: 51vh;
     left: 132vh;
 }
+
 .sec6smallcard3 img {
     height: 9vh;
     width: 4.5vw;
 }
+
 .cardtxt h1 {
     font-size: 2.6vh;
 }
+
 .cardtxt span {
     font-size: 1.9vh;
     font-style: italic;
     color: #4586D5;
 }
+
 .sec7 {
     height: 36vh;
     background-repeat: no-repeat;
@@ -610,17 +6007,20 @@
     color: white;
     position: relative;
 }
+
 .sec7 h1 {
     font-size: 5vh;
-    text-shadow: 4px 1px 7px rgba(0,0,0,0.32);
+    text-shadow: 4px 1px 7px rgba(0, 0, 0, 0.32);
     margin-top: 0.8vh;
     margin-bottom: 2.3vh;
 }
+
 .sec7 h2 {
     font-size: 3.9vh;
     font-weight: 100;
-    text-shadow: 4px 1px 7px rgba(0,0,0,0.32);
+    text-shadow: 4px 1px 7px rgba(0, 0, 0, 0.32);
 }
+
 .sec7 button {
     cursor: pointer;
     background-color: #FAD110;
@@ -636,6 +6036,7 @@
     left: 43.5%;
     top: 75%;
 }
+
 .sec7 button:hover {
     cursor: pointer;
     background-color: #FAD110;
@@ -652,17 +6053,20 @@
     left: 43.5%;
     top: 75%;
 }
+
 .sec8 {
     height: 90vh;
     width: 100%;
     padding: 10vh 10vh 0vh 10vh;
     position: relative;
 }
+
 .sec8head {
     display: flex;
     justify-content: space-between;
     letter-spacing: 0.2vh;
 }
+
 .sec8head h2 {
     font-size: 2.5vh;
     color: #4586D5;
@@ -673,6 +6077,7 @@
 .sec8head h1 {
     font-size: 4.6vh;
 }
+
 .sec8head button {
     border: 0.3vh solid #FAD110;
     height: 7vh;
@@ -685,6 +6090,7 @@
     cursor: pointer;
     background-color: transparent;
 }
+
 .sec8cards {
     display: flex;
     justify-content: space-between;
@@ -693,18 +6099,22 @@
     position: relative;
 
 }
+
 .sec8card img {
     height: 40vh;
     width: 20vw;
     border: 0.2vh solid rgba(0, 0, 0, 0.272);
 }
+
 .sec8card p {
     margin-top: 3vh;
     font-size: 2.4vh;
 }
+
 .sec8card h1 {
     font-size: 4vh;
 }
+
 .card2 span {
     background-color: #4586D5;
     color: white;
@@ -716,6 +6126,7 @@
     text-align: center;
     top: 38vh;
 }
+
 .card3 span {
     background-color: #B94040;
     color: white;
@@ -727,6 +6138,7 @@
     text-align: center;
     top: 38vh;
 }
+
 .card4 span {
     background-color: #142336;
     color: white;
